@@ -10,3 +10,5 @@ There’s two commands you can run in the root of your site to build it:
 git add --all
 git commit -m "Initial commit"
 git push -u origin master
+    username:   kyotolesson
+    pswd:       from in myki
