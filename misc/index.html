@@ -1,7 +1,7 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 	<head>
-		<!-- NAME: 1:3 COLUMN - FULL WIDTH -->
+		<!-- NAME: 1 COLUMN -->
 		<!--[if gte mso 15]>
 		<xml>
 			<o:OfficeDocumentSettings>
@@ -13,8 +13,8 @@
 		<meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>領収書</title>
-		<link rel="shortcut icon" type="image/png" href="https://kyotolesson.github.io/img/favicon.png?v=2">
+		<title>Miscellaneous</title>
+		<link rel="shortcut icon" type="image/png" href="../img/favicon.png?v=2">
 		<!-- Google Fonts -->
 		<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'>
         
@@ -85,6 +85,9 @@
 			font-weight:inherit !important;
 			line-height:inherit !important;
 		}
+		#bodyCell{
+			padding:10px;
+		}
 		.templateContainer{
 			max-width:600px !important;
 		}
@@ -108,6 +111,9 @@
 		}
 		#bodyCell{
 			border-top:0;
+		}
+		.templateContainer{
+			border:0;
 		}
 		h1{
 			color:#202020;
@@ -150,7 +156,7 @@
 			text-align:left;
 		}
 		#templatePreheader{
-			background-color:#FAFAFA;
+			background-color:#fafafa;
 			background-image:none;
 			background-repeat:no-repeat;
 			background-position:center;
@@ -202,8 +208,8 @@
 			background-position:center;
 			background-size:cover;
 			border-top:0;
-			border-bottom:0;
-			padding-top:9px;
+			border-bottom:2px solid #EAEAEA;
+			padding-top:0;
 			padding-bottom:9px;
 		}
 		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
@@ -214,29 +220,6 @@
 			text-align:left;
 		}
 		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
-			color:#2BAADF;
-			font-weight:normal;
-			text-decoration:underline;
-		}
-		#templateColumns{
-			background-color:#FFFFFF;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:2px solid #EAEAEA;
-			padding-top:0;
-			padding-bottom:9px;
-		}
-		#templateColumns .columnContainer .mcnTextContent,#templateColumns .columnContainer .mcnTextContent p{
-			color:#202020;
-			font-family:Helvetica;
-			font-size:16px;
-			line-height:150%;
-			text-align:left;
-		}
-		#templateColumns .columnContainer .mcnTextContent a,#templateColumns .columnContainer .mcnTextContent p a{
 			color:#2BAADF;
 			font-weight:normal;
 			text-decoration:underline;
@@ -270,7 +253,7 @@
 		/* font-weight:bold; */
 		font-style: ;
 		/* font-style:normal; */
-		font-size: 100px;
+		font-size: 60px;
 		color:#202020;
 		line-height: 1.00em;
 		/* line-height:125%; */
@@ -298,12 +281,6 @@
 }	@media only screen and (max-width: 480px){
 		#bodyCell{
 			padding-top:10px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.columnWrapper{
-			max-width:100% !important;
-			width:100% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
@@ -380,13 +357,13 @@
 
 }	@media only screen and (max-width: 480px){
 		h1{
-			font-size:22px !important;
+			font-size:50px !important;
 			line-height:125% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
 		h2{
-			font-size:50px !important;
+			font-size:20px !important;
 			line-height:125% !important;
 		}
 
@@ -432,12 +409,6 @@
 		}
 
 }	@media only screen and (max-width: 480px){
-		#templateColumns .columnContainer .mcnTextContent,#templateColumns .columnContainer .mcnTextContent p{
-			font-size:16px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
 		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
 			font-size:14px !important;
 			line-height:150% !important;
@@ -446,86 +417,34 @@
 }</style></head>
     <body style="height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FAFAFA;">
 		<!--*|IF:MC_PREVIEW_TEXT|*-->
-		<!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">Facture</span><!--<![endif]-->
+		<!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span><!--<![endif]-->
 		<!--*|END:IF|*-->
         <center>
             <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;background-color: #FAFAFA;">
                 <tr>
-                    <td align="center" valign="top" id="bodyCell" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;border-top: 0;">
+                    <td align="center" valign="top" id="bodyCell" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 10px;width: 100%;border-top: 0;">
                         <!-- BEGIN TEMPLATE // -->
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+						<!--[if (gte mso 9)|(IE)]>
+						<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+						<tr>
+						<td align="center" valign="top" width="600" style="width:600px;">
+						<![endif]-->
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border: 0;max-width: 600px !important;">
                             <tr>
-								<td align="center" valign="top" id="templatePreheader" style="background:#FAFAFA none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FAFAFA;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 9px;">
-									<!--[if (gte mso 9)|(IE)]>
-									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-									<tr>
-									<td align="center" valign="top" width="600" style="width:600px;">
-									<![endif]-->
-									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;max-width: 600px !important;">
-										<tr>
-                                			<td valign="top" class="preheaderContainer" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><table class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" width="100%">
-    <tbody class="mcnTextBlockOuter">
-        <tr>
-            <td class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
-              	<!--[if mso]>
-				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
-				<tr>
-				<![endif]-->
-			    
-				<!--[if mso]>
-				<td valign="top" width="600" style="width:600px;">
-				<![endif]-->
-                <table style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnTextContentContainer" cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                    <tbody><tr>
-                        
-                        <td class="mcnTextContent" style="padding: 0px 18px 9px;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #656565;font-family: Helvetica;font-size: 12px;line-height: 150%;" valign="top">
-                        
-                        </td>
-                    </tr>
-                </tbody></table>
-				<!--[if mso]>
-				</td>
-				<![endif]-->
-                
-				<!--[if mso]>
-				</tr>
-				</table>
-				<![endif]-->
-            </td>
-        </tr>
-    </tbody>
+                                <td valign="top" id="templatePreheader" style="background:#fafafa none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #fafafa;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 9px;"><table class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" width="100%">
 </table></td>
-										</tr>
-									</table>
-									<!--[if (gte mso 9)|(IE)]>
-									</td>
-									</tr>
-									</table>
-									<![endif]-->
-								</td>
                             </tr>
-							<tr>
-								<td align="center" valign="top" id="templateHeader" style="background:#FFFFFF none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 0;">
-									<!--[if (gte mso 9)|(IE)]>
-									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-									<tr>
-									<td align="center" valign="top" width="600" style="width:600px;">
-									<![endif]-->
-									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;max-width: 600px !important;">
-										<tr>
-                                			<td valign="top" class="headerContainer" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><table class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td valign="top" id="templateHeader" style="background:#FFFFFF none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 0;"><table class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" width="100%">
     <tbody class="mcnImageBlockOuter">
             <tr>
-                <td style="padding: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner" valign="top">
+                <td style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner" valign="top">
                     <table class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                         <tbody><tr>
-                            <td class="mcnImageContent" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+                            <td class="mcnImageContent" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
                                 
                                     
-                                        <img alt="" src="https://kyotolesson.github.io/img/KyotoLesson_PacificoFont_Small.png" style="max-width: 800px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage" align="middle" width="600">
-										<!-- Better keep image than text here to insure email (copy / paste from website) is properly formated -->
-										<!-- <h2 id="cspio-headline">Kyoto Lesson</h2>
-										<br><br> -->
+                                        <!-- <img alt="" src="../img/failure-leads-to-success.jpg" style="max-width: 1024px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnRetinaImage" align="middle" width="512"> -->
                                     
                                 
                             </td>
@@ -535,25 +454,9 @@
             </tr>
     </tbody>
 </table></td>
-										</tr>
-									</table>
-									<!--[if (gte mso 9)|(IE)]>
-									</td>
-									</tr>
-									</table>
-									<![endif]-->
-								</td>
                             </tr>
-							<tr>
-								<td align="center" valign="top" id="templateBody" style="background:#FFFFFF none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 9px;">
-									<!--[if (gte mso 9)|(IE)]>
-									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-									<tr>
-									<td align="center" valign="top" width="600" style="width:600px;">
-									<![endif]-->
-									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;max-width: 600px !important;">
-										<tr>
-                                			<td valign="top" class="bodyContainer" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><table class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td valign="top" id="templateBody" style="background:#FFFFFF none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 2px solid #EAEAEA;padding-top: 0;padding-bottom: 9px;"><table class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" width="100%">
     <tbody class="mcnTextBlockOuter">
         <tr>
             <td class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
@@ -570,14 +473,47 @@
                         
                         <td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
                         
-                            <h1 style="display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;">領収書</h1>
+                            <!-- <h1 style="text-align: justify;display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;">About Kyoto Lesson</h1> -->
+							<h1 id="cspio-headline">Miscellaneous</h1>
 
-							<br>
-							<br>
-							お支払いを受け取りました。ありがとうございます。<br>
-<br>
+<div style="text-align: justify;">
+<h3 class="null" style="text-align: justify;display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 20px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;"><br>
+Invoices and Receipts</h3>
 
-                        </td>
+<ul>
+	<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="invoice-en.html" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">Invoice Eng</a></li>
+	<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="receipt-en.html" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">Receipt Eng</a></li>
+	<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="invoice-jp.html" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">Invoice Jpn</a></li>
+	<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="receipt-jp.html" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">Receipt Jpn</a></li>
+	<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="invoice-fr.html" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">Invoice Fra</a></li>
+	<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="receipt-fr.html" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">Receipt Fra</a></li>
+</ul>
+
+<h3 class="null" style="text-align: justify;display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 20px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;"><br>
+	Camps</h3>
+	
+	<ul>
+		<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="../lunch" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">Lunch</a></li>
+		<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="../camps" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">Camp Schedule & Holidays</a></li>
+	</ul>
+	
+	<h3 class="null" style="text-align: justify;display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 20px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;"><br>
+		Forms</h3>
+		
+		<ul>
+			<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="../forms/Parental_Consent.pdf" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">Parental Consent Eng</a></li>
+			<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="../forms/親権者同意書.pdf" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">Parental Consent Jpn</a></li>
+			<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="../forms/Autorisation_Parentale.pdf" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">Parental Consent Fra</a></li>
+		</ul>
+	
+		<h3 class="null" style="text-align: justify;display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 20px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;"><br>
+			Marketing</h3>
+			
+			<ul>
+				<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="../img/PosterSpringBreak_en.pdf" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">Poster Spring Break Eng</a></li>
+				<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="../img/PosterJapanese.pdf" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">Poster Spring Break Jpn</a></li>
+			</ul>
+							</td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
@@ -592,191 +528,9 @@
         </tr>
     </tbody>
 </table></td>
-										</tr>
-									</table>
-									<!--[if (gte mso 9)|(IE)]>
-									</td>
-									</tr>
-									</table>
-									<![endif]-->
-								</td>
-                            </tr>
-							<tr>
-								<td align="center" valign="top" id="templateColumns" style="background:#FFFFFF none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 2px solid #EAEAEA;padding-top: 0;padding-bottom: 9px;">
-									<table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;max-width: 600px !important;">
-                                        <tr>
-                                            <td valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-												<!--[if (gte mso 9)|(IE)]>
-												<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-												<tr>
-												<td align="center" valign="top" width="200" style="width:200px;">
-												<![endif]-->
-												<table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="columnWrapper" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-													<tr>
-														<td valign="top" class="columnContainer" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><table class="mcnBoxedTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" width="100%">
-    <!--[if gte mso 9]>
-	<table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
-	<![endif]-->
-	<tbody class="mcnBoxedTextBlockOuter">
-        <tr>
-            <td class="mcnBoxedTextBlockInner" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                
-				<!--[if gte mso 9]>
-				<td align="center" valign="top" ">
-				<![endif]-->
-                <table style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnBoxedTextContentContainer" cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                    <tbody><tr>
-                        
-                        <td style="padding-top: 9px;padding-left: 18px;padding-bottom: 9px;padding-right: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                        
-                            <table class="mcnTextContentContainer" style="min-width: 100% !important;border: 1px outset;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" border="0" width="100%">
-                                <tbody><tr>
-                                    <td class="mcnTextContent" style="padding: 18px;color: #222222;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 150%;" valign="top">
-                                        <br>
-<span style="font-size:15px">SMBC信託銀行<br>
-赤坂支店 (731)<br>
-普通 5010487<br>
-ボゴシアンアラン</span><br>
-<br>
- 
-                                    </td>
-                                </tr>
-                            </tbody></table>
-                        </td>
-                    </tr>
-                </tbody></table>
-				<!--[if gte mso 9]>
-				</td>
-				<![endif]-->
-                
-				<!--[if gte mso 9]>
-                </tr>
-                </table>
-				<![endif]-->
-            </td>
-        </tr>
-    </tbody>
-</table></td>
-													</tr>
-												</table>
-												<!--[if (gte mso 9)|(IE)]>
-												</td>
-												<td align="center" valign="top" width="200" style="width:200px;">
-												<![endif]-->
-												<table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="columnWrapper" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-													<tr>
-														<td valign="top" class="columnContainer" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><table class="mcnBoxedTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" width="100%">
-    <!--[if gte mso 9]>
-	<table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
-	<![endif]-->
-	<tbody class="mcnBoxedTextBlockOuter">
-        <tr>
-            <td class="mcnBoxedTextBlockInner" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                
-				<!--[if gte mso 9]>
-				<td align="center" valign="top" ">
-				<![endif]-->
-                <table style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnBoxedTextContentContainer" cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                    <tbody><tr>
-                        
-                        <td style="padding-top: 9px;padding-left: 18px;padding-bottom: 9px;padding-right: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                        
-                            <table class="mcnTextContentContainer" style="min-width: 100% !important;border: 1px outset;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" border="0" width="100%">
-                                <tbody><tr>
-                                    <td class="mcnTextContent" style="padding: 18px;color: #222222;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 150%;" valign="top">
-                                        <br>
-<span style="font-size:15px">SMBC Trust Bank<br>
-Akasaka Branch<br>
-Futsuu 5010487<br>
-Alan Bogossian</span><br>
-<br>
- 
-                                    </td>
-                                </tr>
-                            </tbody></table>
-                        </td>
-                    </tr>
-                </tbody></table>
-				<!--[if gte mso 9]>
-				</td>
-				<![endif]-->
-                
-				<!--[if gte mso 9]>
-                </tr>
-                </table>
-				<![endif]-->
-            </td>
-        </tr>
-    </tbody>
-</table></td>
-													</tr>
-												</table>
-												<!--[if (gte mso 9)|(IE)]>
-												</td>
-												<td align="center" valign="top" width="200" style="width:200px;">
-												<![endif]-->
-												<table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="columnWrapper" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-													<tr>
-														<td valign="top" class="columnContainer" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><table class="mcnCaptionBlock" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody class="mcnCaptionBlockOuter">
-        <tr>
-            <td class="mcnCaptionBlockInner" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
-                
-
-
-
-<table class="mcnCaptionTopContent" cellspacing="0" cellpadding="0" border="0" align="left" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody><tr>
-        <td class="mcnTextContent" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" width="164" valign="top">
-            <div style="text-align: center;"><br>
-<span style="font-size:15px">〒600-8449<br>
-京都市下京区<br>
-新町通松原下ル<br>
-富永町107番地1</span></div>
-
-        </td>
-    </tr>
-    <tr>
-        <td class="mcnCaptionTopImageContent" style="padding: 9px 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" align="center" valign="top">
-        
-            
-
-            <img alt="" src="https://kyotolesson.github.io/img/KyotoLesson_Stamp_Tiny.jpg" style="max-width: 30px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage" width="30">
-
-            
-        
-        </td>
-    </tr>
-</tbody></table>
-
-
-
-            </td>
-        </tr>
-    </tbody>
-</table></td>
-													</tr>
-												</table>
-												<!--[if (gte mso 9)|(IE)]>
-												</td>
-												</tr>
-												</table>
-												<![endif]-->
-											</td>
-										</tr>
-									</table>
-								</td>
                             </tr>
                             <tr>
-								<td align="center" valign="top" id="templateFooter" style="background:#FAFAFA none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FAFAFA;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 9px;">
-									<!--[if (gte mso 9)|(IE)]>
-									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-									<tr>
-									<td align="center" valign="top" width="600" style="width:600px;">
-									<![endif]-->
-									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;max-width: 600px !important;">
-										<tr>
-                                			<td valign="top" class="footerContainer" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><table class="mcnFollowBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <td valign="top" id="templateFooter" style="background:#FAFAFA none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FAFAFA;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 9px;"><table class="mcnFollowBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" width="100%">
     <tbody class="mcnFollowBlockOuter">
         <tr>
             <td style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnFollowBlockInner" align="center" valign="top">
@@ -809,7 +563,7 @@ Alan Bogossian</span><br>
                                                                         <tbody><tr>
                                                                             
                                                                                 <td class="mcnFollowIconContent" align="center" width="24" valign="middle" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                                                                    <a href="mailto:kyotolesson@gmail.com" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://kyotolesson.github.io/img/color-forwardtofriend-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="" height="24" width="24"></a>
+                                                                                    <a href="mailto:kyotolesson@gmail.com" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="../img/color-forwardtofriend-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="" height="24" width="24"></a>
                                                                                 </td>
                                                                             
                                                                             
@@ -841,7 +595,7 @@ Alan Bogossian</span><br>
                                                                         <tbody><tr>
                                                                             
                                                                                 <td class="mcnFollowIconContent" align="center" width="24" valign="middle" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                                                                    <a href="https://kyotolesson.github.io/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://kyotolesson.github.io/img/color-link-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="" height="24" width="24"></a>
+                                                                                    <a href="https://kyotolesson.github.io/" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="../img/color-link-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="" height="24" width="24"></a>
                                                                                 </td>
                                                                             
                                                                             
@@ -873,7 +627,7 @@ Alan Bogossian</span><br>
                                                                         <tbody><tr>
                                                                             
                                                                                 <td class="mcnFollowIconContent" align="center" width="24" valign="middle" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                                                                    <a href="https://www.facebook.com/kyotolesson" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://kyotolesson.github.io/img/color-facebook-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="" height="24" width="24"></a>
+                                                                                    <a href="https://www.facebook.com/kyotolesson" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="../img/color-facebook-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="" height="24" width="24"></a>
                                                                                 </td>
                                                                             
                                                                             
@@ -905,7 +659,7 @@ Alan Bogossian</span><br>
                                                                         <tbody><tr>
                                                                             
                                                                                 <td class="mcnFollowIconContent" align="center" width="24" valign="middle" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                                                                    <a href="https://twitter.com/kyotolesson" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://kyotolesson.github.io/img/color-twitter-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="" height="24" width="24"></a>
+                                                                                    <a href="https://twitter.com/kyotolesson" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="../img/color-twitter-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="" height="24" width="24"></a>
                                                                                 </td>
                                                                             
                                                                             
@@ -957,6 +711,27 @@ Alan Bogossian</span><br>
             </td>
         </tr>
     </tbody>
+</table>
+<table class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" width="100%">
+    <tbody class="mcnImageBlockOuter">
+            <tr>
+                <td style="padding: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner" valign="top">
+                    <table class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                        <tbody><tr>
+                            <td class="mcnImageContent" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+
+										<h1 id="cspio-headline">Kyoto Lesson</h1>
+										<br>
+										<br>
+                                        <!-- <img alt="" src="../img/KyotoLesson_PacificoFont_Small.png" style="max-width: 1348px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnRetinaImage" align="middle" width="600"> -->
+                                    
+                                
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
 </table><table class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" width="100%">
     <tbody class="mcnTextBlockOuter">
         <tr>
@@ -974,7 +749,7 @@ Alan Bogossian</span><br>
                         
                         <td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #656565;font-family: Helvetica;font-size: 12px;line-height: 150%;text-align: center;" valign="top">
                         
-                            <em>Copyright ©</em><script>document.write( new Date().getFullYear());</script><em> Kyoto Lesson, All rights reserved.</em>
+                            <em>Copyright ©</em><script>document.write( new Date().getFullYear());</script><em> Kyoto Lesson, All rights reserved.</em><br>
                         </td>
                     </tr>
                 </tbody></table>
@@ -990,28 +765,17 @@ Alan Bogossian</span><br>
         </tr>
     </tbody>
 </table></td>
-										</tr>
-									</table>
-									<!--[if (gte mso 9)|(IE)]>
-									</td>
-									</tr>
-									</table>
-									<![endif]-->
-								</td>
                             </tr>
                         </table>
+						<!--[if (gte mso 9)|(IE)]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
                         <!-- // END TEMPLATE -->
                     </td>
                 </tr>
             </table>
         </center>
-                <center>
-                <style type="text/css">
-                    @media only screen and (max-width: 480px){
-                        table#canspamBar td{font-size:14px !important;}
-                        table#canspamBar td a{display:block !important; margin-top:10px !important;}
-                    }
-                </style>
-            </center></body>
 </html>
 
