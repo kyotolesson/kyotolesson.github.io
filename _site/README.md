@@ -1,4 +1,4 @@
-# kyotolesson.github.io
+# kyotolesson.com
 
 There’s two commands you can run in the root of your site to build it:
 
