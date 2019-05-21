@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;     /*needed for spy-scroll */
+}
+
+/* #navbarscroll .nav-link .active {
+    background-color: rgb(48, 47, 47);
+    color: white
+} */
+#navbarscroll .nav-link:not(.active) {
+    background-color: white;
+    color: rgb(52, 85, 114);
+}
+
+/* active (faded) */
+#navbarscroll .nav-link {
+    background-color: rgb(83, 147, 204);
+    color: white
+}
+
+#navbarscroll .nav-link:hover {
+    background: #5393CC;
+    color: white;
+    /* cursor: pointer;  */
+    transition: background .5s;  
+}
+  
+
+/* #navbarscroll{
+    background: rgb(48, 47, 47);
+} */
+
+/* make sidebar nav vertical */ 
+/* @media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+      padding: 0;
+      max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+      float: none;
+      display: block;
+    }
+    .sidebar-nav .navbar li {
+      float: none;
+      display: block;
+    }
+    .sidebar-nav .navbar li a {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+} */
+
+.jumbotron{
+    background-image: url(./img/jumbotron_background_classblur.png); 
+    background-size: cover; 
+    background-repeat: no-repeat;    
+}
+.jumbotron-title{
+    background-color: rgba(0,0,0, 0.4); 
+    overflow: auto;
+}
+.mark-red{
+    /* rgba(168, 62, 62 */
+  background-color: rgba(168, 62, 62, 0.7);        
+  color: white;
+}
+.mark-blue{
+    /* rgba(168, 62, 62 */
+  background-color: rgba(83, 147, 204, 0.7);        
+  color: white;
+}
+.jumbotron-title h1, .jumbotron-title p{
+    font-weight: 800;
+}
+p {
+    text-align: justify;
+}
