@@ -6,6 +6,15 @@ body {
     color: rgb(52, 85, 114);
 }
 
+a{
+    color:#5393CC;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(52, 85, 114);
+}
+
+
 h1, h2 {
     color: #5393CC;
 }
