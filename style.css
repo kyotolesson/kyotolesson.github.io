@@ -39,6 +39,10 @@ h1, h2 {
     color: white;
 }
 
+#navbarDropdown{
+    color: rgb(100, 97, 97);
+}
+
 .navbar {
     margin-bottom: 0px;
 }
@@ -169,3 +173,14 @@ footer .footer-title {
         height: 1200px;
     }
   }  
+
+@font-face {
+    font-family: 'Roboto';
+    font-display: auto;
+    src: local('Roboto'), url(https://fonts.googleapis.com/css?family=Roboto:300,400,700) format('woff2');
+}
+@font-face {
+    font-family: 'Pacifico';
+    font-display: auto;
+    src: local('Pacifico'), url(https://fonts.googleapis.com/css?family=Pacifico:400&subset=) format('woff2');
+}

@@ -40,15 +40,15 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
 	<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <!-- preconnect to google map for smoother page loading -->
+    <link rel="preconnect" href="https://maps.gstatic.com">
 </head>
 
 <body data-spy="scroll" data-target="#navbarscroll" data-offset="0" class="scrollspy-home">
     <div id="top"></div>
     <!-- Navbar Component -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>        
         <a class="navbar-brand" href="https://kyotolesson.com">
         <img src="./img/01_Nav_stamp_namepacifio_blue_navbar1.png" width="300" class="img-fluid" alt="Lycée Français International de Kyoto"></a>
 
@@ -107,13 +107,13 @@
 
         <!-- <div class="navbar-collapse collapse w-100 order-3 dual-collapse2"> -->
         <ul class="nav ml-auto">
-            <li class="nav-item"><a href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank"><img src="./svg/envelope.svg" height="20" alt="Kyoto Lesson LinkedIn"></a></li>
-            <li class="nav-item">&emsp;&emsp;<a href="https://kyoto-lesson.github.io/" target="_blank"><img src="./svg/github-logo.svg" height="20" alt="Kyoto Lesson GitHub Pages"></a></li>
-            <li class="nav-item">&emsp;<a href="https://www.linkedin.com/school/kyotolesson" target="_blank"><img src="./svg/linkedin-logo.svg" height="20" alt="Kyoto Lesson LinkedIn"></a></li>
-            <li class="nav-item">&emsp;<a href="https://twitter.com/kyotolesson" target="_blank"><img src="./svg/twitter-logo.svg" height="20" alt="Kyoto Lesson Twitter"></a></li>
-            <li class="nav-item">&emsp;<a href="https://www.instagram.com/kyotolesson/" target="_blank"><img src="./svg/instagram-seeklogo.com.svg" height="20" alt="Kyoto Lesson Instagram"></a></li>
-            <li class="nav-item">&emsp;<a href="https://www.facebook.com/kyotolesson/" target="_blank"><img src="./svg/facebook-logo.svg" height="20" alt="Kyoto Lesson Facebook"></a></li>
-            <li class="nav-item">&emsp;<a href="https://www.youtube.com/channel/UCOs6QS8NFzUG879plRrWFxA" target="_blank"><img src="./svg/youtube-svgrepo-com.svg" height="20" alt="Kyoto Lesson YouTube"></a></li>
+            <li class="nav-item"><a href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank" rel="noopener"><img src="./svg/envelope.svg" height="20" alt="Kyoto Lesson LinkedIn"></a></li>
+            <li class="nav-item">&emsp;&emsp;<a href="https://kyoto-lesson.github.io/" target="_blank" rel="noopener"><img src="./svg/github-logo.svg" height="20" alt="Kyoto Lesson GitHub Pages"></a></li>
+            <li class="nav-item">&emsp;<a href="https://www.linkedin.com/school/kyotolesson" target="_blank" rel="noopener"><img src="./svg/linkedin-logo.svg" height="20" alt="Kyoto Lesson LinkedIn"></a></li>
+            <li class="nav-item">&emsp;<a href="https://twitter.com/kyotolesson" target="_blank" rel="noopener"><img src="./svg/twitter-logo.svg" height="20" alt="Kyoto Lesson Twitter"></a></li>
+            <li class="nav-item">&emsp;<a href="https://www.instagram.com/kyotolesson/" target="_blank" rel="noopener"><img src="./svg/instagram-seeklogo.com.svg" height="20" alt="Kyoto Lesson Instagram"></a></li>
+            <li class="nav-item">&emsp;<a href="https://www.facebook.com/kyotolesson/" target="_blank" rel="noopener"><img src="./svg/facebook-logo.svg" height="20" alt="Kyoto Lesson Facebook"></a></li>
+            <li class="nav-item">&emsp;<a href="https://www.youtube.com/channel/UCOs6QS8NFzUG879plRrWFxA" target="_blank" rel="noopener"><img src="./svg/youtube-svgrepo-com.svg" height="20" alt="Kyoto Lesson YouTube"></a></li>
         </ul>
     </nav>
     <!-- </div> -->
@@ -123,13 +123,13 @@
         <div class="row">
             <div class="col-sm-2">
                 <div id="navbarscroll" class="nav nav-pills flex-column sticky-top" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" href="#top">Top</a>
-                    <a class="nav-link" href="#why-code">Why Code?</a>
-                    <a class="nav-link" href="#testimonials">Testimonials</a>
-                    <a class="nav-link" href="#jr-coders">Junior Coders</a>
-                    <a class="nav-link" href="#entrepreneurs">Tech Entrepreneurs</a>
-                    <a class="nav-link" href="#about-us">About Us</a>
-                    <a class="nav-link" href="#locations">Locations</a>
+                    <a class="nav-link active" href="#top" role="listitem">Top</a>
+                    <a class="nav-link" href="#why-code" role="listitem">Why Code?</a>
+                    <a class="nav-link" href="#testimonials" role="listitem">Testimonials</a>
+                    <a class="nav-link" href="#jr-coders" role="listitem">Junior Coders</a>
+                    <a class="nav-link" href="#entrepreneurs" role="listitem">Tech Entrepreneurs</a>
+                    <a class="nav-link" href="#about-us" role="listitem">About Us</a>
+                    <a class="nav-link" href="#locations" role="listitem">Locations</a>
                 </div>
                 <!-- <div class="nav flex-column nav-pills" id="navbarscroll" role="tablist" aria-orientation="vertical">
                     <a class="nav-link active" id="v-pills-top-tab" data-toggle="pill" href="#top" role="tab" aria-controls="top" aria-selected="true">Top</a>
@@ -153,7 +153,7 @@
                                 <p>Our Boot Camps and After School Programs are Designed to <mark class="mark-red">Equip Students with Practical Skills</mark></p>
                                 <br>
                                 <p class="lead">
-                                    <a class="btn btn-danger btn-lg" href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank" role="button">Contact Us</a>
+                                    <a class="btn btn-danger btn-lg" href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank" rel="noopener" role="button">Contact Us</a>
                                 </p>                                
                             </div>
                         </div>
@@ -523,7 +523,7 @@
                         </ul>
                         <p>
                             A new class will start once at least six students have registered. 
-                            Do not hesitate to <a href="mailto:hello@kyotolesson.com?Subject=Info: Tech Entrepreneur Program" target="_blank">contact us</a> for more details.
+                            Do not hesitate to <a href="mailto:hello@kyotolesson.com?Subject=Info: Tech Entrepreneur Program" target="_blank" rel="noopener">contact us</a> for more details.
                         </p>
                     </div>
                 </div>          
@@ -585,8 +585,8 @@
                         <br>
                         <img class="card-img-top" src="./img/07_location_communitylabn55_white_748x100.png" alt="Community Lab N5.5 Logo">
                         <br><br>
-                        <a href="https://www.n-55.jp/" style="color: #2BAADF;font-weight: normal;text-decoration: underline;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank">Community Lab N5.5</a> 
-                        <br>(250m from Gojo station, <a href="https://goo.gl/maps/4XaA15SdyFUaEa2y5" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">GoogleMap link</a>)<br>
+                        <a href="https://www.n-55.jp/" style="color: #2BAADF;font-weight: normal;text-decoration: underline;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank" rel="noopener">Community Lab N5.5</a> 
+                        <br>(250m from Gojo station, <a href="https://goo.gl/maps/4XaA15SdyFUaEa2y5" target="_blank" rel="noopener" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">GoogleMap link</a>)<br>
                         <br>
                         〒600-8188<br>
                         京都府京都市下京区和泉町529<br>
@@ -598,7 +598,7 @@
                         <br>
                         <br>
                         <div class="google-maps">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d3268.442593689778!2d135.75824116524015!3d34.995624330359846!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x600108a30d73c00f%3A0xe157e170ee12e45d!2sGojo+Station%2C+Matsuyacho%2C+Shimogyo+Ward%2C+Kyoto%2C+Japan!3m2!1d34.9963803!2d135.7601362!4m5!1s0x600108a35a740001%3A0xd53171e0f5df662e!2zSmFwYW4sIOOAkjYwMC04MTg4IEt5b3RvLCBTaGltb2d5byBXYXJkLCBJenVtaWNobywgNTI5IOOCs-ODn-ODpeODi-ODhuOCo-ODqeODnE41LjU!3m2!1d34.9948684!2d135.7609654!5e0!3m2!1sen!2sus!4v1558829996004!5m2!1sen!2sus" frameborder="0" style="border:0" allowfullscreen></iframe>                        
+                            <iframe title="map-n55" src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d3268.442593689778!2d135.75824116524015!3d34.995624330359846!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x600108a30d73c00f%3A0xe157e170ee12e45d!2sGojo+Station%2C+Matsuyacho%2C+Shimogyo+Ward%2C+Kyoto%2C+Japan!3m2!1d34.9963803!2d135.7601362!4m5!1s0x600108a35a740001%3A0xd53171e0f5df662e!2zSmFwYW4sIOOAkjYwMC04MTg4IEt5b3RvLCBTaGltb2d5byBXYXJkLCBJenVtaWNobywgNTI5IOOCs-ODn-ODpeODi-ODhuOCo-ODqeODnE41LjU!3m2!1d34.9948684!2d135.7609654!5e0!3m2!1sen!2sus!4v1558829996004!5m2!1sen!2sus" frameborder="0" style="border:0" allowfullscreen></iframe>                        
                         </div>
                         <br>
                     </div>
@@ -606,8 +606,8 @@
                         <br>
                         <img class="card-img-top" src="./img/07_location_GrovingBaseLogoWhite_H100.png" alt="Groving Base Logo">
                         <br><br>
-                        <a href="https://groving-base.jp/" style="color: #2BAADF;font-weight: normal;text-decoration: underline;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank">Groving Base</a> 
-                        <br>(500m from Gojo station, <a href="https://goo.gl/maps/Dj4dmq6ac1n" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">GoogleMap link</a>)<br>
+                        <a href="https://groving-base.jp/" style="color: #2BAADF;font-weight: normal;text-decoration: underline;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank" rel="noopener">Groving Base</a> 
+                        <br>(500m from Gojo station, <a href="https://goo.gl/maps/Dj4dmq6ac1n" target="_blank" rel="noopener" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">GoogleMap link</a>)<br>
                         <br>
                         〒600-8449<br>
                         京都市下京区新町通松原下ル富永町107番地1<br>
@@ -619,7 +619,7 @@
                         <br>
                         <br>
                         <div class="google-maps">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3268.370374154568!2d135.7563042652402!3d34.99743263035939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x600108a30d73c00f%3A0xe157e170ee12e45d!2sGojo+Station!3m2!1d34.9963803!2d135.7601362!4m5!1s0x6001089f33473e35%3A0xd2ec32d693ecb2ef!2zR1JPVklORyBCQVNF44CB44CSNjAwLTg0NDkgS3lvdG8gUHJlZmVjdHVyZSwg5Lqs6YO95biC5LiL5Lqs5Yy6IOaWsOeUuumAmuadvuWOn-S4i-ODq-WvjOawuOeUujEwN-eVquWcsDE!3m2!1d34.99849!2d135.756786!5e0!3m2!1sen!2sus!4v1558830048849!5m2!1sen!2sus" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe title="map-grovingbase" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3268.370374154568!2d135.7563042652402!3d34.99743263035939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x600108a30d73c00f%3A0xe157e170ee12e45d!2sGojo+Station!3m2!1d34.9963803!2d135.7601362!4m5!1s0x6001089f33473e35%3A0xd2ec32d693ecb2ef!2zR1JPVklORyBCQVNF44CB44CSNjAwLTg0NDkgS3lvdG8gUHJlZmVjdHVyZSwg5Lqs6YO95biC5LiL5Lqs5Yy6IOaWsOeUuumAmuadvuWOn-S4i-ODq-WvjOawuOeUujEwN-eVquWcsDE!3m2!1d34.99849!2d135.756786!5e0!3m2!1sen!2sus!4v1558830048849!5m2!1sen!2sus" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                         <br>
                     </div>
@@ -645,7 +645,7 @@
                 </div>
                 <div class="col-md-6">
                     <form class="form-inline" action="https://github.us19.list-manage.com/subscribe/post?u=c689bfde97fcdecbaa7ad88ec&amp;id=963b443229" method="post">
-                        <input id="cspio-email" name="EMAIL" class="form-control form-control-lg input-lg form-el" style="width: 400px;" type="email" placeholder="Email -メールアドレス(資料請求する)" required/>
+                        <input id="cspio-email" label="email" name="EMAIL" class="form-control form-control-lg input-lg form-el" style="width: 400px;" type="email" placeholder="Email -メールアドレス(資料請求する)" required/>
                         &emsp;
                         <button id="cspio-subscribe-btn" type="submit" class="btn btn-lg btn-primary form-el noglow" style="background: #5393CC;">Notify Me - 送信</button>
                     </form>
@@ -686,7 +686,7 @@
                     <p class="footer-title">Contact Us</p>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank">hello@kyotolesson.com</a>
+                            <a href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank" rel="noopener">hello@kyotolesson.com</a>
                         </li>
                         <li class="nav-item">
                             <a href="#locations">Our Locations</a>
@@ -742,12 +742,12 @@
                 <div class="col-md-2">
                     <p class="footer-title">Follow Us</p>
                     <ul class="nav flex-column">
-                        <li class="nav-item"><a href="https://kyoto-lesson.github.io/" target="_blank">Github</a></li>
-                        <li class="nav-item"><a href="https://www.linkedin.com/school/kyotolesson" target="_blank">LinkedIn</a></li>
-                        <li class="nav-item"><a href="https://twitter.com/kyotolesson" target="_blank">Twitter</a></li>
-                        <li class="nav-item"><a href="https://www.instagram.com/kyotolesson/" target="_blank">Instagram</a></li>
-                        <li class="nav-item"><a href="https://www.facebook.com/kyotolesson/" target="_blank">Facebook</a></li>
-                        <li class="nav-item"><a href="https://www.youtube.com/channel/UCOs6QS8NFzUG879plRrWFxA" target="_blank">YouTube</a></li>
+                        <li class="nav-item"><a href="https://kyoto-lesson.github.io/" target="_blank" rel="noopener">Github</a></li>
+                        <li class="nav-item"><a href="https://www.linkedin.com/school/kyotolesson" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li class="nav-item"><a href="https://twitter.com/kyotolesson" target="_blank" rel="noopener">Twitter</a></li>
+                        <li class="nav-item"><a href="https://www.instagram.com/kyotolesson/" target="_blank" rel="noopener">Instagram</a></li>
+                        <li class="nav-item"><a href="https://www.facebook.com/kyotolesson/" target="_blank" rel="noopener">Facebook</a></li>
+                        <li class="nav-item"><a href="https://www.youtube.com/channel/UCOs6QS8NFzUG879plRrWFxA" target="_blank" rel="noopener">YouTube</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2">
@@ -759,8 +759,8 @@
                 <div class="col-md-4">
                 </div>
                 <div class="col-md-4" style="text-align: center; font-size: 13px;">
-                    Copyright &copy; <script>document.write( new Date().getFullYear());</script> 
-                    Kyoto Lesson
+                    <!-- Copyright &copy; <script>document.write( new Date().getFullYear());</script>  -->
+                    Copyright &copy; 2019 Kyoto Lesson
                 </div>
                 <div class="col-md-4">
                 </div>
