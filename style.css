@@ -164,3 +164,8 @@ footer .nav-item a:hover {
 footer .footer-title {
     font-weight: 900;
 }
+@media only screen and (max-width: 600px) {
+    footer {
+        height: 1200px;
+    }
+  }  
