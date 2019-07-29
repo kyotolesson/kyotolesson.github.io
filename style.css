@@ -163,7 +163,7 @@ p {
 footer { 
     background: #F2F2F2;
     color: #5393CC;
-    height: 750px;
+    height: 850px;
     padding-bottom: 130px;
   }
 footer .nav-item a {
@@ -179,7 +179,7 @@ footer .footer-title {
 }
 @media only screen and (max-width: 600px) {
     footer {
-        height: 1370px;
+        height: 1430px;
     }
   }  
 
