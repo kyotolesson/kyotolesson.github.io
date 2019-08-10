@@ -193,3 +193,9 @@ footer .footer-title {
     font-display: auto;
     src: local('Pacifico'), url(https://fonts.googleapis.com/css?family=Pacifico:400&subset=) format('woff2');
 }
+
+@media only screen and (max-width: 480px) and (min-width: 200px){
+    .img-nvbar{
+        width: 200px;
+    }
+}
