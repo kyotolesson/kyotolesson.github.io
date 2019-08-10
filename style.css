@@ -55,6 +55,9 @@ h1, h2 {
 .navbar {
     margin-bottom: 0px;
 }
+.dropdown-menu{
+    z-index: 1021 !important;
+}
 
 #navbarscroll .nav-link:not(.active) {
     background-color: white;
@@ -197,5 +200,26 @@ footer .footer-title {
 @media only screen and (max-width: 480px) and (min-width: 200px){
     .img-nvbar{
         width: 200px;
+    }
+
+    .subMenuBTN{
+        color: rgb(52, 85, 114);
+    }
+
+    .subMenuSVG{
+        height: 20px;
+        margin-bottom: 0.5rem;
+    }
+
+    #menu-nav {
+        justify-content: start !important;
+    }
+
+    .subMenuRow{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1020;
+        background: white;
     }
 }

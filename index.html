@@ -47,117 +47,126 @@
     <link rel="preconnect" href="https://maps.gstatic.com">
 </head>
 
-<body data-spy="scroll" data-target="#navbarscroll" data-offset="0" class="scrollspy-home">
-    <div id="top"></div>
-    <!-- Navbar Component -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="https://kyotolesson.com">
-            <img src="./img/01_Nav_stamp_namepacifio_blue_navbar1.png" width="300" class="img-fluid img-nvbar" alt="Kyoto Lesson">
-        </a>
+<body  id="top"  data-spy="scroll" data-target="#navbarscroll" data-offset="0" class="scrollspy-home">
+    <header>
+        <!-- Navbar Component -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="https://kyotolesson.com">
+                <img src="./img/01_Nav_stamp_namepacifio_blue_navbar1.png" width="300" class="img-fluid img-nvbar" alt="Kyoto Lesson">
+            </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-            <div class="navbar justify-content-between">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    English
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./camp-fr/">Français</a>
-                    <a class="dropdown-item" href="./camp-jp/">日本語</a>
-                </div>
-                </li>
-            </ul>
-            </div>
-        
-            <ul id="menu-nav" class="nav justify-content-center">
-            <!-- <li class="nav-item">
-                &emsp;&emsp;&emsp;
-            </li> -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
-                <div class="dropdown-menu">
-                <a class="dropdown-item" href="./about/#buildfirst">Teaching Style</a>
-                <a class="dropdown-item" href="./why-code">Why Code?</a>
-                <a class="dropdown-item" href="./about/#thefounder">About the Founder</a>
-                <!-- <div class="dropdown-divider"></div> -->
-                <!-- <a class="dropdown-item" href="#">Separated link</a> -->
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Junior Coder</a>
-                <div class="dropdown-menu">
-                <a class="dropdown-item" href="./camp-en/">Coding Boot Camp</a>
-                <a class="dropdown-item" href="./afterschool-en/">Coding After School</a>
-                <a class="dropdown-item" href="./camp-jp/">プログラミング集中講座</a>
-                <a class="dropdown-item" href="./afterschool-jp/">プログラミング教室</a>
-                <a class="dropdown-item" href="./camp-fr">Stage de Code</a>
-                <a class="dropdown-item" href="./afterschool-fr/">Coder Après l'École</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Hardware Prototyping</a>
-                <div class="dropdown-menu">
-                <a class="dropdown-item" href="./3dprint/">3D Printing & Modeling</a>
-                <a class="dropdown-item" href="">Electronic (Micro:Bit Block Editor, Arduino, Raspberry Pi...)</a>
-                <a class="dropdown-item" href="">Robotic (Kamibot, Lego Mindstorms, Drones...)</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#entrepreneurs">Tech Entrepreneurs</a>
-            </li>
-            </ul>
-            <!-- <div class="mx-auto order-0">
-                <a class="navbar-brand mx-auto" href="#"></a>
-            </div> -->
-        
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button> -->
+            </button>
             
-        
-            <!-- <div class="navbar-collapse collapse w-100 order-3 dual-collapse2"> -->
-            <ul class="nav ml-auto">
-            <li class="nav-item"><a href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank" rel="noopener"><img src="./svg/envelope.svg" height="20" alt="Kyoto Lesson LinkedIn"></a></li>
-            <li class="nav-item">&emsp;&emsp;<a href="https://kyoto-lesson.github.io/" target="_blank" rel="noopener"><img src="./svg/github-logo.svg" height="20" alt="Kyoto Lesson GitHub Pages"></a></li>
-            <li class="nav-item">&emsp;<a href="https://www.linkedin.com/school/kyotolesson" target="_blank" rel="noopener"><img src="./svg/linkedin-logo.svg" height="20" alt="Kyoto Lesson LinkedIn"></a></li>
-            <li class="nav-item">&emsp;<a href="https://twitter.com/kyotolesson" target="_blank" rel="noopener"><img src="./svg/twitter-logo.svg" height="20" alt="Kyoto Lesson Twitter"></a></li>
-            <li class="nav-item">&emsp;<a href="https://www.instagram.com/kyotolesson/" target="_blank" rel="noopener"><img src="./svg/instagram-seeklogo.com.svg" height="20" alt="Kyoto Lesson Instagram"></a></li>
-            <li class="nav-item">&emsp;<a href="https://www.facebook.com/kyotolesson/" target="_blank" rel="noopener"><img src="./svg/facebook-logo.svg" height="20" alt="Kyoto Lesson Facebook"></a></li>
-            <li class="nav-item">&emsp;<a href="https://www.youtube.com/channel/UCOs6QS8NFzUG879plRrWFxA" target="_blank" rel="noopener"><img src="./svg/youtube-svgrepo-com.svg" height="20" alt="Kyoto Lesson YouTube"></a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- </div> -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <div class="navbar justify-content-between">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        English
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./camp-fr/">Français</a>
+                        <a class="dropdown-item" href="./camp-jp/">日本語</a>
+                    </div>
+                    </li>
+                </ul>
+                </div>
+            
+                <ul id="menu-nav" class="nav justify-content-center">
+                <!-- <li class="nav-item">
+                    &emsp;&emsp;&emsp;
+                </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./about/#buildfirst">Teaching Style</a>
+                    <a class="dropdown-item" href="./why-code">Why Code?</a>
+                    <a class="dropdown-item" href="./about/#thefounder">About the Founder</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Junior Coder</a>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./camp-en/">Coding Boot Camp</a>
+                    <a class="dropdown-item" href="./afterschool-en/">Coding After School</a>
+                    <a class="dropdown-item" href="./camp-jp/">プログラミング集中講座</a>
+                    <a class="dropdown-item" href="./afterschool-jp/">プログラミング教室</a>
+                    <a class="dropdown-item" href="./camp-fr">Stage de Code</a>
+                    <a class="dropdown-item" href="./afterschool-fr/">Coder Après l'École</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Hardware Prototyping</a>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./3dprint/">3D Printing & Modeling</a>
+                    <a class="dropdown-item" href="">Electronic (Micro:Bit Block Editor, Arduino, Raspberry Pi...)</a>
+                    <a class="dropdown-item" href="">Robotic (Kamibot, Lego Mindstorms, Drones...)</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#entrepreneurs">Tech Entrepreneurs</a>
+                </li>
+                </ul>
+                <!-- <div class="mx-auto order-0">
+                    <a class="navbar-brand mx-auto" href="#"></a>
+                </div> -->
+            
+                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                
+            
+                <!-- <div class="navbar-collapse collapse w-100 order-3 dual-collapse2"> -->
+                <ul class="nav ml-auto">
+                <li class="nav-item"><a href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank" rel="noopener"><img src="./svg/envelope.svg" height="20" alt="Kyoto Lesson LinkedIn"></a></li>
+                <li class="nav-item">&emsp;&emsp;<a href="https://kyoto-lesson.github.io/" target="_blank" rel="noopener"><img src="./svg/github-logo.svg" height="20" alt="Kyoto Lesson GitHub Pages"></a></li>
+                <li class="nav-item">&emsp;<a href="https://www.linkedin.com/school/kyotolesson" target="_blank" rel="noopener"><img src="./svg/linkedin-logo.svg" height="20" alt="Kyoto Lesson LinkedIn"></a></li>
+                <li class="nav-item">&emsp;<a href="https://twitter.com/kyotolesson" target="_blank" rel="noopener"><img src="./svg/twitter-logo.svg" height="20" alt="Kyoto Lesson Twitter"></a></li>
+                <li class="nav-item">&emsp;<a href="https://www.instagram.com/kyotolesson/" target="_blank" rel="noopener"><img src="./svg/instagram-seeklogo.com.svg" height="20" alt="Kyoto Lesson Instagram"></a></li>
+                <li class="nav-item">&emsp;<a href="https://www.facebook.com/kyotolesson/" target="_blank" rel="noopener"><img src="./svg/facebook-logo.svg" height="20" alt="Kyoto Lesson Facebook"></a></li>
+                <li class="nav-item">&emsp;<a href="https://www.youtube.com/channel/UCOs6QS8NFzUG879plRrWFxA" target="_blank" rel="noopener"><img src="./svg/youtube-svgrepo-com.svg" height="20" alt="Kyoto Lesson YouTube"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- </div> -->
+    </header>
     <!-- End of navbar -->
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-2">
-                <div id="navbarscroll" class="nav nav-pills flex-column sticky-top" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" href="#top" role="listitem">Top</a>
-                    <a class="nav-link" href="#why-code" role="listitem">Why Code?</a>
-                    <a class="nav-link" href="#testimonials" role="listitem">Testimonials</a>
-                    <a class="nav-link" href="#jr-coders" role="listitem">Junior Coders</a>
-                    <a class="nav-link" href="#hardware" role="listitem">Hardware Prototyping</a>
-                    <a class="nav-link" href="#entrepreneurs" role="listitem">Tech Entrepreneurs</a>
-                    <a class="nav-link" href="#about-us" role="listitem">About Us</a>
-                    <a class="nav-link" href="#locations" role="listitem">Locations</a>
+            <div class="col-sm-2 subMenuRow" style="padding-left: 0px; padding-right: 0px;">
+                <div class="navbar navbar-expand-md  sticky-top">
+                    <button class="subMenuBtn navbar-toggler border" type="menu" data-toggle="collapse" data-target="#subMenu" aria-controls="subMenu" aria-expanded="false" aria-label="Toggle navigation">
+                        Sections <svg class="subMenuSVG" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sort-down" class="svg-inline--fa fa-sort-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"></path></svg>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="subMenu">
+                        <div id="navbarscroll" class="nav nav-pills flex-column w-100" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" href="#top" role="listitem">Top</a>
+                            <a class="nav-link" href="#why-code" role="listitem">Why Code?</a>
+                            <a class="nav-link" href="#testimonials" role="listitem">Testimonials</a>
+                            <a class="nav-link" href="#jr-coders" role="listitem">Junior Coders</a>
+                            <a class="nav-link" href="#hardware" role="listitem">Hardware Prototyping</a>
+                            <a class="nav-link" href="#entrepreneurs" role="listitem">Tech Entrepreneurs</a>
+                            <a class="nav-link" href="#about-us" role="listitem">About Us</a>
+                            <a class="nav-link" href="#locations" role="listitem">Locations</a>
+                        </div>
+                    </div>
+                    <!-- <div class="nav flex-column nav-pills" id="navbarscroll" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-top-tab" data-toggle="pill" href="#top" role="tab" aria-controls="top" aria-selected="true">Top</a>
+                        <a class="nav-link" id="v-pills-whycode-tab" data-toggle="pill" href="#why-code" role="tab" aria-controls="why-code" aria-selected="false">Why Code?</a>
+                        <a class="nav-link" id="v-pills-jrcoders-tab" data-toggle="pill" href="#jr-coders" role="tab" aria-controls="jr-coders" aria-selected="false">Junior Coders</a>
+                        <a class="nav-link" id="v-pills-entrepreneur-tab" data-toggle="pill" href="#entrepreneurs" role="tab" aria-controls="entrepreneurs" aria-selected="false">Tech Entrepreneurs</a>
+                        <a class="nav-link" id="v-pills-aboutus-tab" data-toggle="pill" href="#about-us" role="tab" aria-controls="about-us" aria-selected="false">About Us</a>
+                    </div> -->
                 </div>
-                <!-- <div class="nav flex-column nav-pills" id="navbarscroll" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-top-tab" data-toggle="pill" href="#top" role="tab" aria-controls="top" aria-selected="true">Top</a>
-                    <a class="nav-link" id="v-pills-whycode-tab" data-toggle="pill" href="#why-code" role="tab" aria-controls="why-code" aria-selected="false">Why Code?</a>
-                    <a class="nav-link" id="v-pills-jrcoders-tab" data-toggle="pill" href="#jr-coders" role="tab" aria-controls="jr-coders" aria-selected="false">Junior Coders</a>
-                    <a class="nav-link" id="v-pills-entrepreneur-tab" data-toggle="pill" href="#entrepreneurs" role="tab" aria-controls="entrepreneurs" aria-selected="false">Tech Entrepreneurs</a>
-                    <a class="nav-link" id="v-pills-aboutus-tab" data-toggle="pill" href="#about-us" role="tab" aria-controls="about-us" aria-selected="false">About Us</a>
-                </div> -->
             </div>
             <div class="col-sm-8">
                 <div class="row">
@@ -1161,7 +1170,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script>$('body').scrollspy({ target: '#navbarscroll' })</script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
