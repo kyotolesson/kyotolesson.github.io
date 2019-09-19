@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Linux Command</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=100%, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>
+                    Start a Terminal on Debian distribution use simultaneous 
+                    <strong>CTRL</strong> + 
+                    <strong>ALT</strong> + 
+                    <strong>T</strong>
+                </h3>
+                <ul>
+                    <li>
+                        <p><strong>ls</strong> List the contents of a directory (or folder).</p>
+                        <ul>
+                            <li><strong>ls -a</strong> Also show hidden files.</li>
+                            <li><strong>ls -l</strong> Displays more information about the content. (simpler equivalent:
+                                ll)</li>
+                            <li><strong>ls -t</strong> Display all in order of modification.</li>
+                            <li><strong>ls -alt</strong> Combine -a -l -t</li>
+                        </ul>
+                    </li>
+                    <li><strong>pwd</strong> Displays the path of the current folder.</li>
+                    <li><strong>cd</strong> Allows you to walk around the folders.</li>
+                    <li><strong>mkdir</strong> Create a new directory.
+                        <ul>
+                            <li><strong>mkdir</strong> -p x/y/z creates the x/y/z tree</li>
+                        </ul>
+                    </li>
+                    <li><strong>touch</strong> Create a new file.</li>
+                    <li><strong>cp</strong> Copy files or directories.
+                        <ul>
+                            <li><strong>cp</strong> file1 file2 = Here, copy the contents of file1 into file2.</li>
+                            <li><strong>cp</strong> folder1/file1 folder2 = Here, we copy file1 in folder2.</li>
+                            <li><strong>cp</strong> folder1/file1 folder2/file2 folder3/ = Here, we copy file1 and
+                                file2 in folder3.
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>mv</strong> Move or rename a file or folder.
+                        <ul>
+                            <li><strong>mv</strong> file1 file2 folder1 / Here, we move file1 and file2 in folder1.</li>
+                            <li><strong>mv</strong> file1 file2 Here, we rename file1 to file2.</li>
+                        </ul>
+                    </li>
+                    <li><strong>rm</strong> Delete a file.
+                        <ul>
+                            <li><strong>rm -r</strong> Also deletes subfolders and their contents.</li>
+                            <li><strong>rm -f</strong> Remove without asking for confirmation.</li>
+                            <li><strong>rmdir</strong> remove a folder.</li>
+                        </ul>
+                    </li>
+                    <li><strong>cat</strong> Displays the contents of a file.
+                        <ul>
+                            <li><strong>cat</strong> file1&gt; file2 Here, all the contents of file2 are replaced by the
+                                contents of
+                                file1.</li>
+                            <li><strong>cat</strong> file1 &gt;&gt; file2 Here, the contents of file1 are added to the
+                                contents of
+                                file2. | This is the &quot;pipe&quot;, it passes the output of a command inpout another
+                                command.</li>
+                            <li><strong>cat</strong> file1 | Here, the output of cat becomes the inpout of wc.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>Here the web console to practice the basic command</h3>
+                <a href="https://web-terminal-e92cb.firebaseapp.com/" target="_blank"><strong>WEB TERMINAL</strong></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
