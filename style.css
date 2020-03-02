@@ -24,6 +24,14 @@ h1, h2 {
     color: white
 } */
 
+.avatar_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 35%;
+  }
+
 #menu-nav {
     width: 50%;
     /* margin-left: 4rem; */
