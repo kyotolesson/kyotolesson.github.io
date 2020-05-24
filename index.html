@@ -1,21 +1,26 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Kyoto Lesson</title>
+    <title>Kyoto Lesson</title>
 
     <!-- Required meta tags (including viewport to ensure proper rendering and touch zooming for all devices) -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="Description" content="Kyoto Lesson: Coding School in Kyoto for students from Primary to University and beyond! --- プログラミングスクール - 京都">
+    <meta name="Description"
+        content="Kyoto Lesson: Coding School in Kyoto for students from Primary to University and beyond! --- プログラミングスクール - 京都">
 
     <!-- Social Media Sharing Info (Facebook) https://developers.facebook.com/tools/debug/sharing/ -->
-    <meta property="og:title" content="Kyoto Lesson: Everyone Can Learn to Code ! プログラミングスクール - 京都"> <!-- Twitter: [Maximum 70 characters.] -->
-    <meta property="og:description" content="We teach beginners, children and adults. Our curriculum covers the most popular languages in the Tech Industry: JavaScript (dynamic websites) and Python (machine learning). プログラミングスクール - 京都"> <!-- FB: Between 2 to 4 sentences Twitter: [Maximum 200 characters.]-->
-    <meta property="og:image" content="https://kyotolesson.com/img/00_Meta_og_image_1200x630.png"> <!--Facebook's recommendation of a minimum dimension of 1200x630 pixels and an aspect ratio of 1.91:1, but adhere to Twitter's file size requirement of less than 1MB-->
+    <meta property="og:title" content="Kyoto Lesson: Everyone Can Learn to Code ! プログラミングスクール - 京都">
+    <!-- Twitter: [Maximum 70 characters.] -->
+    <meta property="og:description"
+        content="We teach beginners, children and adults. Our curriculum covers the most popular languages in the Tech Industry: JavaScript (dynamic websites) and Python (machine learning). プログラミングスクール - 京都">
+    <!-- FB: Between 2 to 4 sentences Twitter: [Maximum 200 characters.]-->
+    <meta property="og:image" content="https://kyotolesson.com/img/00_Meta_og_image_1200x630.png">
+    <!--Facebook's recommendation of a minimum dimension of 1200x630 pixels and an aspect ratio of 1.91:1, but adhere to Twitter's file size requirement of less than 1MB-->
     <!-- FB: at least 600x315 pixels, but 1200x630 or larger is preferred (up to 5MB). Stay close to a 1.91:1 aspect ratio to avoid cropping.
       Twitter: A URL to a unique image representing the content of the page. You should not use a generic image such as your website logo, author photo, or other image that spans multiple pages. Images for this Card should be at least 280px in width, and at least 150px in height. Image must be less than 1MB in size.-->
-    <meta property="og:url" content="https://kyotolesson.com/">    
+    <meta property="og:url" content="https://kyotolesson.com/">
     <!-- Social Media Sharing Info (Twitter) https://cards-dev.twitter.com/validator -->
     <meta property="twitter:card" content="summary_large_image">
 
@@ -36,13 +41,15 @@
     <link rel="shortcut icon" type="image/png" href="./img/00_Meta_favicon.png">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- All other stylesheets should come after Bootstrap -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-	<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'>
+    <link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet'
+        type='text/css'>
     <link rel="stylesheet" type="text/css" href="style.css">
-    
+
     <!-- preconnect to google map for smoother page loading -->
     <link rel="preconnect" href="https://maps.gstatic.com">
 </head>
@@ -52,19 +59,20 @@
     <!-- Navbar Component -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <a class="navbar-brand" href="https://kyotolesson.com">
-        <img src="./img/01_Nav_stamp_namepacifio_blue_navbar1.png" width="300" class="img-fluid" alt="Kyoto Lesson"></a>
+            <img src="./img/01_Nav_stamp_namepacifio_blue_navbar1.png" width="300" class="img-fluid"
+                alt="Kyoto Lesson"></a>
 
         <div class="navbar justify-content-between">
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    English
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./camp-fr/">Français</a>
-                    <a class="dropdown-item" href="./camp-jp/">日本語</a>
-                </div>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        English
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./camp-fr/">Français</a>
+                        <a class="dropdown-item" href="./camp-jp/">日本語</a>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -74,39 +82,43 @@
                 &emsp;&emsp;&emsp;
             </li> -->
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false">About Us</a>
                 <div class="dropdown-menu">
-                <a class="dropdown-item" href="./about/#buildfirst">Teaching Style</a>
-                <a class="dropdown-item" href="./why-code">Why Code?</a>
-                <a class="dropdown-item" href="./about/#theteam">About the Team</a>
-                <!-- <div class="dropdown-divider"></div> -->
-                <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                    <a class="dropdown-item" href="./about/#buildfirst">Teaching Style</a>
+                    <a class="dropdown-item" href="./why-code">Why Code?</a>
+                    <a class="dropdown-item" href="./about/#theteam">About the Team</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <!-- <a class="dropdown-item" href="#">Separated link</a> -->
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">After-School</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false">After-School</a>
                 <div class="dropdown-menu">
-                <a class="dropdown-item" href="./afterschool-en/">Coding After School</a>
-                <a class="dropdown-item" href="./afterschool-jp/">プログラミング教室</a>
-                <a class="dropdown-item" href="./afterschool-fr/">Coder Après l'École</a>
+                    <a class="dropdown-item" href="./afterschool-en/">Coding After School</a>
+                    <a class="dropdown-item" href="./afterschool-jp/">プログラミング教室</a>
+                    <a class="dropdown-item" href="./afterschool-fr/">Coder Après l'École</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Boot Camps</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false">Boot Camps</a>
                 <div class="dropdown-menu">
-                <a class="dropdown-item" href="./camp-en/">Coding Boot Camp</a>
-                <a class="dropdown-item" href="./camp-jp/">プログラミング集中講座</a>
-                <a class="dropdown-item" href="./camp-fr">Stage de Code</a>
-                <div class="dropdown-divider"></div>
-                <a class="nav-link" href="#entrepreneurs">Tech Entrepreneurs</a>
+                    <a class="dropdown-item" href="./camp-en/">Coding Boot Camp</a>
+                    <a class="dropdown-item" href="./camp-jp/">プログラミング集中講座</a>
+                    <a class="dropdown-item" href="./camp-fr">Stage de Code</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="nav-link" href="#entrepreneurs">Tech Entrepreneurs</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Hardware Prototyping</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false">Hardware Prototyping</a>
                 <div class="dropdown-menu">
-                <a class="dropdown-item" href="./3dprint/">3D Printing & Modeling</a>
-                <a class="dropdown-item" href="">Electronic (Micro:Bit Block Editor, Arduino, Raspberry Pi...)</a>
-                <a class="dropdown-item" href="">Robotic (Kamibot, Lego Mindstorms, Drones...)</a>
+                    <a class="dropdown-item" href="./3dprint/">3D Printing & Modeling</a>
+                    <a class="dropdown-item" href="">Electronic (Micro:Bit Block Editor, Arduino, Raspberry Pi...)</a>
+                    <a class="dropdown-item" href="">Robotic (Kamibot, Lego Mindstorms, Drones...)</a>
                 </div>
             </li>
         </ul>
@@ -117,17 +129,27 @@
         <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
             <span class="navbar-toggler-icon"></span>
         </button> -->
-        
+
 
         <!-- <div class="navbar-collapse collapse w-100 order-3 dual-collapse2"> -->
         <ul class="nav ml-auto">
-            <li class="nav-item"><a href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank" rel="noopener"><img src="./svg/envelope.svg" height="20" alt="Kyoto Lesson LinkedIn"></a></li>
-            <li class="nav-item">&emsp;&emsp;<a href="https://kyoto-lesson.github.io/" target="_blank" rel="noopener"><img src="./svg/github-logo.svg" height="20" alt="Kyoto Lesson GitHub Pages"></a></li>
-            <li class="nav-item">&emsp;<a href="https://www.linkedin.com/school/kyotolesson" target="_blank" rel="noopener"><img src="./svg/linkedin-logo.svg" height="20" alt="Kyoto Lesson LinkedIn"></a></li>
-            <li class="nav-item">&emsp;<a href="https://twitter.com/kyotolesson" target="_blank" rel="noopener"><img src="./svg/twitter-logo.svg" height="20" alt="Kyoto Lesson Twitter"></a></li>
-            <li class="nav-item">&emsp;<a href="https://www.instagram.com/kyotolesson/" target="_blank" rel="noopener"><img src="./svg/instagram-seeklogo.com.svg" height="20" alt="Kyoto Lesson Instagram"></a></li>
-            <li class="nav-item">&emsp;<a href="https://www.facebook.com/kyotolesson/" target="_blank" rel="noopener"><img src="./svg/facebook-logo.svg" height="20" alt="Kyoto Lesson Facebook"></a></li>
-            <li class="nav-item">&emsp;<a href="https://www.youtube.com/channel/UCOs6QS8NFzUG879plRrWFxA" target="_blank" rel="noopener"><img src="./svg/youtube-svgrepo-com.svg" height="20" alt="Kyoto Lesson YouTube"></a></li>
+            <li class="nav-item"><a href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank"
+                    rel="noopener"><img src="./svg/envelope.svg" height="20" alt="Kyoto Lesson LinkedIn"></a></li>
+            <li class="nav-item">&emsp;&emsp;<a href="https://kyoto-lesson.github.io/" target="_blank"
+                    rel="noopener"><img src="./svg/github-logo.svg" height="20" alt="Kyoto Lesson GitHub Pages"></a>
+            </li>
+            <li class="nav-item">&emsp;<a href="https://www.linkedin.com/school/kyotolesson" target="_blank"
+                    rel="noopener"><img src="./svg/linkedin-logo.svg" height="20" alt="Kyoto Lesson LinkedIn"></a></li>
+            <li class="nav-item">&emsp;<a href="https://twitter.com/kyotolesson" target="_blank" rel="noopener"><img
+                        src="./svg/twitter-logo.svg" height="20" alt="Kyoto Lesson Twitter"></a></li>
+            <li class="nav-item">&emsp;<a href="https://www.instagram.com/kyotolesson/" target="_blank"
+                    rel="noopener"><img src="./svg/instagram-seeklogo.com.svg" height="20"
+                        alt="Kyoto Lesson Instagram"></a></li>
+            <li class="nav-item">&emsp;<a href="https://www.facebook.com/kyotolesson/" target="_blank"
+                    rel="noopener"><img src="./svg/facebook-logo.svg" height="20" alt="Kyoto Lesson Facebook"></a></li>
+            <li class="nav-item">&emsp;<a href="https://www.youtube.com/channel/UCOs6QS8NFzUG879plRrWFxA"
+                    target="_blank" rel="noopener"><img src="./svg/youtube-svgrepo-com.svg" height="20"
+                        alt="Kyoto Lesson YouTube"></a></li>
         </ul>
     </nav>
     <!-- </div> -->
@@ -136,7 +158,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-2">
-                <div id="navbarscroll" class="nav nav-pills flex-column sticky-top" role="tablist" aria-orientation="vertical">
+                <div id="navbarscroll" class="nav nav-pills flex-column sticky-top" role="tablist"
+                    aria-orientation="vertical">
                     <a class="nav-link active" href="#top" role="listitem">Top</a>
                     <a class="nav-link" href="#why-code" role="listitem">Why Code?</a>
                     <a class="nav-link" href="#curriculum" role="listitem">Curriculum</a>
@@ -167,13 +190,19 @@
                                     From Elementary School to University and Beyond... Boost your Tech Education
                                 </p>
                                 <hr class="my-10">
-                                <p>Our Boot Camps and After School Programs are Designed to <mark class="mark-red">Equip Students with Practical Skills</mark></p>
+                                <p>Our Boot Camps and After School Programs are Designed to <mark class="mark-red">Equip
+                                        Students with Practical Skills</mark></p>
                                 <br><br>
                                 <p class="lead" style="text-align: center;">
-                                    <a class="btn btn-primary btn-lg" href="https://forms.gle/Awjxtmn36HUaVyxb6" target="_blank" rel="noopener" role="button"><strong>Register</strong></a> &emsp;
-                                    <a class="btn btn-light btn-lg" href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank" rel="noopener" role="button"><strong>Contact Us</strong></a> &emsp;
-                                    <a class="btn btn-danger btn-lg" href="./afterschool-jp/" role="button"><strong>日本語</strong></a>
-                                </p>                                
+                                    <a class="btn btn-primary btn-lg" href="https://forms.gle/Awjxtmn36HUaVyxb6"
+                                        target="_blank" rel="noopener" role="button"><strong>Register</strong></a>
+                                    &emsp;
+                                    <a class="btn btn-light btn-lg"
+                                        href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank"
+                                        rel="noopener" role="button"><strong>Contact Us</strong></a> &emsp;
+                                    <a class="btn btn-danger btn-lg" href="./afterschool-jp/"
+                                        role="button"><strong>日本語</strong></a>
+                                </p>
                             </div>
                         </div>
                         <!-- End of Jumbotron -->
@@ -181,9 +210,9 @@
                 </div>
 
                 <div class="row">
-                <div class="col">
-                    <h1 class="text-center">Learn From the Best</h1>
-                </div>
+                    <div class="col">
+                        <h1 class="text-center">Learn From the Best</h1>
+                    </div>
                 </div>
 
                 <div class="row justify-content-center">
@@ -191,8 +220,7 @@
                         <!-- First Card -->
                         <div class="card">
                             <a href="./about/#thefounder">
-                                <img class="card-img-top"
-                                    src="./img/03_Cards_about_founder_class2_900x600.jpeg"
+                                <img class="card-img-top" src="./img/03_Cards_about_founder_class2_900x600.jpeg"
                                     alt="Card image cap">
                                 <div class="card-body">
                                     <p class="card-text">Learn from Great Software Engineers and Educators</p>
@@ -206,8 +234,7 @@
                         <!-- Second Card -->
                         <div class="card">
                             <a href="./about/#ourcurriculum">
-                                <img class="card-img-top"
-                                    src="./img/03_Cards_python_intro_machinelearning_900x600.jpeg"
+                                <img class="card-img-top" src="./img/03_Cards_python_intro_machinelearning_900x600.jpeg"
                                     alt="Card image cap">
                                 <div class="card-body">
                                     <p class="card-text">Cutting-Edge Curriculum, always up-to-date and relevant</p>
@@ -221,8 +248,7 @@
                         <!-- Third Card -->
                         <div class="card">
                             <a href="./about/#buildfirst">
-                                <img class="card-img-top"
-                                    src="./img/03_Cards_ClassSatisfaction_Blur_900x600.jpeg"
+                                <img class="card-img-top" src="./img/03_Cards_ClassSatisfaction_Blur_900x600.jpeg"
                                     alt="Card image cap">
                                 <div class="card-body">
                                     <p class="card-text">Class and Teacher Rated 90% to 100% by the Students</p>
@@ -234,10 +260,12 @@
                 </div>
                 <br><br>
                 <p class="lead" style="text-align: center;">
-                    <a class="btn btn-light btn-lg" href="https://forms.gle/Awjxtmn36HUaVyxb6" target="_blank" rel="noopener" role="button"><strong>Register</strong></a> &emsp;
-                    <a class="btn btn-danger btn-lg" href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank" rel="noopener" role="button"><strong>Contact Us</strong></a> &emsp;
+                    <a class="btn btn-light btn-lg" href="https://forms.gle/Awjxtmn36HUaVyxb6" target="_blank"
+                        rel="noopener" role="button"><strong>Register</strong></a> &emsp;
+                    <a class="btn btn-danger btn-lg" href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!"
+                        target="_blank" rel="noopener" role="button"><strong>Contact Us</strong></a> &emsp;
                     <a class="btn btn-light btn-lg" href="./afterschool-jp/" role="button"><strong>日本語</strong></a>
-                </p>                                
+                </p>
 
                 <br><br>
                 <div class="row" id="why-code">
@@ -247,20 +275,25 @@
                     <div class="col-md-4">
                         <h3>An Essential Skill</h3>
                         <p>
-                            <img class="rounded img-fluid" src="./img/04_why_code_computational_thinking.jpg" alt="Job lost to AI">                    
-                            <br>You'll need coding, no matter what your career ambitions are. <strong>Coding is like reading in the 
-                            previous century: it's the new literacy</strong>.
-                            Countries around the world have started to recognize that and they are adding coding to the 
+                            <img class="rounded img-fluid" src="./img/04_why_code_computational_thinking.jpg"
+                                alt="Job lost to AI">
+                            <br>You'll need coding, no matter what your career ambitions are. <strong>Coding is like
+                                reading in the
+                                previous century: it's the new literacy</strong>.
+                            Countries around the world have started to recognize that and they are adding coding to the
                             elementary school curriculum.
                             <br><br>
                             文部科学省は海外に遅れながらも、2020年より小学校からの プログラミング教育必修化を決定いたしました。
                             そして、中学校で 始めていた英語教育が小学3年生より正式にスタートします。 中学校では、小学校での英語授業が前提となり、
                             英語で 英語の勉強で行われるようになります。
                             <br><br>
-                            Il est desormais essentiel de savoir programmer, quelles que soient vos ambitions de carrière. 
-                            Coder, c'est comme lire au siècle précédent: c'est la nouvelle alphabétisation. Les pays du monde 
-                            entier ont commencé à le reconnaître et ils ajoutent l'informatique au programme des écoles élémentaires.
-                            
+                            Il est desormais essentiel de savoir programmer, quelles que soient vos ambitions de
+                            carrière.
+                            Coder, c'est comme lire au siècle précédent: c'est la nouvelle alphabétisation. Les pays du
+                            monde
+                            entier ont commencé à le reconnaître et ils ajoutent l'informatique au programme des écoles
+                            élémentaires.
+
                             <br><br>
                             <a href="./why-code">Learn more &gt</a>
                         </p>
@@ -268,19 +301,24 @@
                     <div class="col-md-4">
                         <h3>Not Just Coding</h3>
                         <p>
-                            <img class="rounded img-fluid" width="100%" src="./img/04_why_code_LeadershipSkills.jpg" alt="Leadership Skills">                    
+                            <img class="rounded img-fluid" width="100%" src="./img/04_why_code_LeadershipSkills.jpg"
+                                alt="Leadership Skills">
                             <br>
-                            Learning Coding strengthens scientific skills. <strong>They will also acquire essential leadership qualities</strong> 
-                            such as logical and critical thinking, problem solving, autonomous learning ability, diversity (cross-cultural) understanding, 
-                            creativity, teamwork and communication.                         
+                            Learning Coding strengthens scientific skills. <strong>They will also acquire essential
+                                leadership qualities</strong>
+                            such as logical and critical thinking, problem solving, autonomous learning ability,
+                            diversity (cross-cultural) understanding,
+                            creativity, teamwork and communication.
                             <br><br>
                             プログラミング学習以外にも、論理と批判的思考、 問題解決力、
-                            自律的学習能力、多様性(異文化)理解、創造性、創造性、 チームワーク、コミュニケーションといった、本質的なリーダーシップ 
-                            の資質を生徒に身に付けさせるようにクラスが設計されています。 
+                            自律的学習能力、多様性(異文化)理解、創造性、創造性、 チームワーク、コミュニケーションといった、本質的なリーダーシップ
+                            の資質を生徒に身に付けさせるようにクラスが設計されています。
                             <br><br>
-                            Apprendre à programmer renforce les compétences scientifiques. Les élèves acquerront également les compétences 
-                            essentielles telles que la logique et l'esprit critique, la capacité à aprehender des problèmes complexes, l’autonomie, 
-                            le respect de la diversité, la créativité, le travail d’équipe et la communication.                             
+                            Apprendre à programmer renforce les compétences scientifiques. Les élèves acquerront
+                            également les compétences
+                            essentielles telles que la logique et l'esprit critique, la capacité à aprehender des
+                            problèmes complexes, l’autonomie,
+                            le respect de la diversité, la créativité, le travail d’équipe et la communication.
                             <br><br>
                             <a href="./why-code">Learn more &gt</a>
                         </p>
@@ -288,30 +326,39 @@
                     <div class="col-md-4">
                         <h3>40% of All Jobs Lost?</h3>
                         <p>
-                            <img class="rounded img-fluid" src="./img/04_why_code_Automation Testing.jpg" alt="Job lost to AI">                    
+                            <img class="rounded img-fluid" src="./img/04_why_code_Automation Testing.jpg"
+                                alt="Job lost to AI">
                             <br>Artificial Intelligence and Automation put a high number of today's job at risk.
-                            Surprisingly these are not just blue-collar but also white-collar jobs. They might be replaced 
-                            by new jobs requiring new skills. <strong>Do you want to Work with A.I. or Compete with A.I.?</strong> Even with 
-                            engineers doing the heavy lifting for you, you'll still need to understand what coding is about.
+                            Surprisingly these are not just blue-collar but also white-collar jobs. They might be
+                            replaced
+                            by new jobs requiring new skills. <strong>Do you want to Work with A.I. or Compete with
+                                A.I.?</strong> Even with
+                            engineers doing the heavy lifting for you, you'll still need to understand what coding is
+                            about.
                             <br><br>
-                            日本語(準備中)  
+                            日本語(準備中)
                             <br><br>
-                            L'intelligence artificielle et l'automatisation mettent en péril un grand nombre d'emplois à tous 
-                            les niveaux de qualification. Les emplois actuels seront remplacées par de nouveaux emplois 
-                            nécessitant de nouvelles compétences. Souhaitez-vous travailler avec l'I.A. ou en concurrence avec elle? 
-                            Même avec des ingénieurs qui font le gros du travail pour vous, vous aurez toujours à comprendre en quoi 
+                            L'intelligence artificielle et l'automatisation mettent en péril un grand nombre d'emplois à
+                            tous
+                            les niveaux de qualification. Les emplois actuels seront remplacées par de nouveaux emplois
+                            nécessitant de nouvelles compétences. Souhaitez-vous travailler avec l'I.A. ou en
+                            concurrence avec elle?
+                            Même avec des ingénieurs qui font le gros du travail pour vous, vous aurez toujours à
+                            comprendre en quoi
                             consiste la programmation.
                             <br><br>
                             <a href="./why-code">Learn more &gt</a>
                         </p>
                     </div>
-                </div>    
+                </div>
                 <br><br>
                 <p class="lead" style="text-align: center;">
-                    <a class="btn btn-dark btn-lg" href="https://forms.gle/Awjxtmn36HUaVyxb6" target="_blank" rel="noopener" role="button"><strong>Register</strong></a> &emsp;
-                    <a class="btn btn-warning btn-lg" href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank" rel="noopener" role="button"><strong>Contact Us</strong></a> &emsp;
+                    <a class="btn btn-dark btn-lg" href="https://forms.gle/Awjxtmn36HUaVyxb6" target="_blank"
+                        rel="noopener" role="button"><strong>Register</strong></a> &emsp;
+                    <a class="btn btn-warning btn-lg" href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!"
+                        target="_blank" rel="noopener" role="button"><strong>Contact Us</strong></a> &emsp;
                     <a class="btn btn-danger btn-lg" href="./afterschool-jp/" role="button"><strong>日本語</strong></a>
-                </p>                                
+                </p>
 
                 <br><br>
                 <div class="row" id="curriculum">
@@ -321,175 +368,214 @@
                     <div class="col-md-4">
                         <h3 style="text-align: center;">Junior Coders</h3>
                         <p>
-                            <div style="text-align: center;">
-                                From 5 to 9 year old<br><br>
-                            </div>
-                            <div style="text-align: center;">
-                                <a href="https://forms.gle/Awjxtmn36HUaVyxb6" target="_blank" rel="noopener">Register &gt</a> &emsp; &emsp; 
-                                <a href="mailto:hello@kyotolesson.com?subject=Hello ! Junior Coders Inquiry" target="_blank" rel="noopener">Inquire &gt</a> &emsp; &emsp; 
-                                <a href="./afterschool-jp/">日本語 &gt</a>
-                            </div>
-                            <br>
-                            <div style="text-align: justify;">
-                                Students will learn to write algorithm with logic games first before moving on 
-                                to Scratch Jr and <b>Scratch</b>, a block programming language developed by MIT. 
-                                Last they will get an introduction to html-css and to python.<br><br>
-                            </div>
-                            Two-hour lessons once a week: ¥28,000 / month<br>
-                            Two-hour lessons twice a week: ¥42,000 / month<br><br>
-                            Lessons are:
-                            <ul>
-                                <li>Monday to Friday:
-                                    <ul>
-                                        <li>4pm to 6pm</li>
-                                        <li>5pm to 7pm</li>
-                                    </ul>
-                                </li>
-                                <li>Saturday:
-                                    <ul>
-                                        <li>10:30am to 12:30pm</li>
-                                        <li>1:30pm to 3:30pm</li>
-                                        <li>3:30pm to 5:30pm</li>
-                                        <li>4:30pm to 6:30pm</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <br>
-                        </p>                            
+                        <div style="text-align: center;">
+                            From 5 to 9 year old<br><br>
+                        </div>
+                        <div style="text-align: center;">
+                            <a href="https://forms.gle/Awjxtmn36HUaVyxb6" target="_blank" rel="noopener">Register
+                                &gt</a> &emsp; &emsp;
+                            <a href="mailto:hello@kyotolesson.com?subject=Hello ! Junior Coders Inquiry" target="_blank"
+                                rel="noopener">Inquire &gt</a> &emsp; &emsp;
+                            <a href="./afterschool-jp/">日本語 &gt</a>
+                        </div>
+                        <br>
+                        <div style="text-align: justify;">
+                            Students will learn to write algorithm with logic games first before moving on
+                            to Scratch Jr and <b>Scratch</b>, a block programming language developed by MIT.
+                            Last they will get an introduction to html-css and to python.<br><br>
+                        </div>
+                        Two-hour lessons once a week: ¥28,000 / month<br>
+                        Two-hour lessons twice a week: ¥42,000 / month<br><br>
+                        Lessons are:
+                        <ul>
+                            <li>Monday to Friday:
+                                <ul>
+                                    <li>4pm to 6pm</li>
+                                    <li>5pm to 7pm</li>
+                                </ul>
+                            </li>
+                            <li>Saturday:
+                                <ul>
+                                    <li>10:30am to 12:30pm</li>
+                                    <li>1:30pm to 3:30pm</li>
+                                    <li>3:30pm to 5:30pm</li>
+                                    <li>4:30pm to 6:30pm</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <br>
+                        </p>
                     </div>
                     <div class="col-md-4">
                         <h3 style="text-align: center;">Web App Builders</h3>
                         <p>
-                            <div style="text-align: center;">
-                                From 8 year old<br><br>
-                            </div>
-                            <div style="text-align: center;">
-                                <a href="https://forms.gle/Awjxtmn36HUaVyxb6" target="_blank" rel="noopener">Register &gt</a> &emsp; &emsp; 
-                                <a href="mailto:hello@kyotolesson.com?subject=Hello ! Web App Builders Inquiry" target="_blank" rel="noopener">Inquire &gt</a> &emsp; &emsp; 
-                                <a href="./afterschool-jp/">日本語 &gt</a>
-                            </div>
-                            <br>
-                            <div style="text-align: justify;">
-                                Students will learn to build web applications and dynamic websites.
-                                They will acquire the fundations of <b>HTML, CSS and Javascript</b> 
-                                and learn to use all the modern tools for project management.<br><br>
-                            </div>
-                            Two-hour lessons once a week: ¥24,000 / month<br>
-                            Two-hour lessons twice a week: ¥36,000 / month<br><br>
-                            Lessons are:
-                            <ul>
-                                <li>Monday to Friday:
-                                    <ul>
-                                        <li>4pm to 6pm</li>
-                                        <li>5pm to 7pm</li>
-                                    </ul>
-                                </li>
-                                <li>Saturday:
-                                    <ul>
-                                        <li>10:30am to 12:30pm</li>
-                                        <li>1:30pm to 3:30pm</li>
-                                        <li>3:30pm to 5:30pm</li>
-                                        <li>4:30pm to 6:30pm</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <br>
-                        </p>                            
+                        <div style="text-align: center;">
+                            From 8 year old<br><br>
+                        </div>
+                        <div style="text-align: center;">
+                            <a href="https://forms.gle/Awjxtmn36HUaVyxb6" target="_blank" rel="noopener">Register
+                                &gt</a> &emsp; &emsp;
+                            <a href="mailto:hello@kyotolesson.com?subject=Hello ! Web App Builders Inquiry"
+                                target="_blank" rel="noopener">Inquire &gt</a> &emsp; &emsp;
+                            <a href="./afterschool-jp/">日本語 &gt</a>
+                        </div>
+                        <br>
+                        <div style="text-align: justify;">
+                            Students will learn to build web applications and dynamic websites.
+                            They will acquire the fundations of <b>HTML, CSS and Javascript</b>
+                            and learn to use all the modern tools for project management.<br><br>
+                        </div>
+                        Two-hour lessons once a week: ¥24,000 / month<br>
+                        Two-hour lessons twice a week: ¥36,000 / month<br><br>
+                        Lessons are:
+                        <ul>
+                            <li>Monday to Friday:
+                                <ul>
+                                    <li>4pm to 6pm</li>
+                                    <li>5pm to 7pm</li>
+                                </ul>
+                            </li>
+                            <li>Saturday:
+                                <ul>
+                                    <li>10:30am to 12:30pm</li>
+                                    <li>1:30pm to 3:30pm</li>
+                                    <li>3:30pm to 5:30pm</li>
+                                    <li>4:30pm to 6:30pm</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <br>
+                        </p>
                     </div>
                     <div class="col-md-4">
                         <h3 style="text-align: center;">Data Science Explorers</h3>
                         <p>
-                            <div style="text-align: center;">
-                                From 12 year old<br><br>
-                            </div>
-                            <div style="text-align: center;">
-                                <a href="https://forms.gle/Awjxtmn36HUaVyxb6" target="_blank" rel="noopener">Register &gt</a> &emsp; &emsp; 
-                                <a href="mailto:hello@kyotolesson.com?subject=Hello ! Data Science Explorers Inquiry" target="_blank" rel="noopener">Inquire &gt</a> &emsp; &emsp; 
-                                <a href="./afterschool-jp/">日本語 &gt</a>
-                            </div>
-                            <br>
-                            <div style="text-align: justify;">
-                                Students will learn <b>Python</b> and get a first overview of the most common technics 
-                                and tools available in <b>Machine Learning</b> and <b>Artificial Intelligence</b> and most importantly, 
-                                understand their limitations.<br><br>
-                            </div>
-                            Two-hour lessons once a week: ¥24,000 / month<br>
-                            Two-hour lessons twice a week: ¥36,000 / month<br><br>
-                            Lessons are:
-                            <ul>
-                                <li>Monday to Friday:
-                                    <ul>
-                                        <li>4pm to 6pm</li>
-                                        <li>5pm to 7pm</li>
-                                    </ul>
-                                </li>
-                                <li>Saturday:
-                                    <ul>
-                                        <li>10:30am to 12:30pm</li>
-                                        <li>1:30pm to 3:30pm</li>
-                                        <li>3:30pm to 5:30pm</li>
-                                        <li>4:30pm to 6:30pm</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <br>
-                        </p>                            
+                        <div style="text-align: center;">
+                            From 12 year old<br><br>
+                        </div>
+                        <div style="text-align: center;">
+                            <a href="https://forms.gle/Awjxtmn36HUaVyxb6" target="_blank" rel="noopener">Register
+                                &gt</a> &emsp; &emsp;
+                            <a href="mailto:hello@kyotolesson.com?subject=Hello ! Data Science Explorers Inquiry"
+                                target="_blank" rel="noopener">Inquire &gt</a> &emsp; &emsp;
+                            <a href="./afterschool-jp/">日本語 &gt</a>
+                        </div>
+                        <br>
+                        <div style="text-align: justify;">
+                            Students will learn <b>Python</b> and get a first overview of the most common technics
+                            and tools available in <b>Machine Learning</b> and <b>Artificial Intelligence</b> and most
+                            importantly,
+                            understand their limitations.<br><br>
+                        </div>
+                        Two-hour lessons once a week: ¥24,000 / month<br>
+                        Two-hour lessons twice a week: ¥36,000 / month<br><br>
+                        Lessons are:
+                        <ul>
+                            <li>Monday to Friday:
+                                <ul>
+                                    <li>4pm to 6pm</li>
+                                    <li>5pm to 7pm</li>
+                                </ul>
+                            </li>
+                            <li>Saturday:
+                                <ul>
+                                    <li>10:30am to 12:30pm</li>
+                                    <li>1:30pm to 3:30pm</li>
+                                    <li>3:30pm to 5:30pm</li>
+                                    <li>4:30pm to 6:30pm</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <br>
+                        </p>
                     </div>
-                </div>          
+                </div>
                 <br><br>
                 <div class="row" id="team">
                     <h2>Meet Our Team</h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-3">
+                        <img src="./img/0_alex_avataaars.png" alt="Alex's Avatar" class="avatar_center">
+                        <h3 style="text-align: center">Alex</h3>
+                        <p>
+                            Learning to code has been one of the most fulfilling achievements of my life.<br><br>
+
+                            Several years ago, I taught myself Python as a way to automate repetitive tasks at a desk
+                            job. In 2019, I moved to Kyoto and attended an adult web development bootcamp,
+                            which, incidentally, was in the same building as Kyoto Lesson! After this, I taught students
+                            in subsequent classes and found
+                            this experience incredibly fun.<br><br>
+
+                            In my career, I've explored the tech scene in Silicon Valley and built movie props in LA.
+                            Now I find myself at a startup in Kyoto, contributing to the company's web projects and
+                            coaching the CEO on his English. I enjoy working with diverse groups of people and
+                            giving them the tools they need to succeed. At Kyoto Lesson, I aim to share my hunger for
+                            learning and taking on new challenges.<br><br>
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
                         <img src="./img/0_david_avataaars.png" alt="David's Avatar" class="avatar_center">
                         <h3 style="text-align: center">David</h3>
                         <p>
-                            I have worked with children for over 30 years and especially focus on fostering children's 
-                            creativity and sense of play. I also have  experience in computer science and several other 
-                            science-related fields. I've started coding at the age of 10, and I was part of the first 
+                            I have worked with children for over 30 years and especially focus on fostering children's
+                            creativity and sense of play. I also have experience in computer science and several other
+                            science-related fields. I've started coding at the age of 10, and I was part of the first
                             generation of "computer whiz kids".<br><br>
 
-                            My work with kids has included afterschool teacher, camp counselor, and kindergarten teacher in 
-                            both U.S. and Japan. My experience with computers includes applications in cobol, html, 
-                            javascript, among others. I am also active as staff for a scientific society in Japan.<br><br>
-                            
-                            I was born and grew up in Europe, but moved to the U.S. when I was 7. 
-                            I speak French, Portuguese and American Sign Language, and basic Japanese. 
-                            I live with my wife  and daughter in Kyoto.<br><br>
-                        </p>                            
+                            My work with kids has included afterschool teacher, camp counselor, and kindergarten teacher
+                            in
+                            both U.S. and Japan. My experience with computers includes applications in cobol, html,
+                            javascript, among others. I am also active as staff for a scientific society in
+                            Japan.<br><br>
+
+                            I was born and grew up in Europe, but moved to the U.S. when I was 7.
+                            I speak French, Portuguese and American Sign Language, and basic Japanese.
+                            I live with my wife and daughter in Kyoto.<br><br>
+                        </p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-3">
                         <img src="./img/0_farid_avataaars.png" alt="Farid's Avatar" class="avatar_center">
-                        <h3  style="text-align: center">Farid</h3>
+                        <h3 style="text-align: center">Farid</h3>
                         <p>
-                            I've always had a PC in my hands, being a fan of "MacGyver" and video games, I started to tinker at a very early age. 
-                            Study wise, I wanted well-rounded skills and I've thus studied IT hardware, System administrator, Network and Telecom. 
-                            I've finally specialized in web development and web security and my hobby is to look for websites' vulnerabilities 
+                            I've always had a PC in my hands, being a fan of "MacGyver" and video games, I started to
+                            tinker at a very early age.
+                            Study wise, I wanted well-rounded skills and I've thus studied IT hardware, System
+                            administrator, Network and Telecom.
+                            I've finally specialized in web development and web security and my hobby is to look for
+                            websites' vulnerabilities
                             (I'm a Bug Bounty Hunter !!!).<br><br>
 
-                            Early on, I've discovered that I had a passion for teaching and I thus started to teach English to young children. 
-                            After a while, I've realized that rather than just teaching English, I should teach something useful in English 
+                            Early on, I've discovered that I had a passion for teaching and I thus started to teach
+                            English to young children.
+                            After a while, I've realized that rather than just teaching English, I should teach
+                            something useful in English
                             and that's what brought me to teach coding and in particular web applications.<br><br>
 
                             I grew up in Belgium and moved to Japan in 2018.<br><br>
                         </p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-3">
                         <img src="./img/0_alan_avataaars.png" alt="Alan's Avatar" class="avatar_center">
                         <h3 style="text-align: center">Alan</h3>
                         <p>
-                            I believe that coding is an essential skill that all children should pick up, as early as possible.
-                            So when we moved to Kyoto with my wife and four kids, one of the first thing I look for was a proper 
-                            coding school for my children. I wanted a school where children would think by themself and learn by doing.
-                            As I could not find anything satisfying, I decided to take the matter into my own hands and to start a coding school. 
+                            I believe that coding is an essential skill that all children should pick up, as early as
+                            possible.
+                            So when we moved to Kyoto with my wife and four kids, one of the first thing I look for was
+                            a proper
+                            coding school for my children. I wanted a school where children would think by themself and
+                            learn by doing.
+                            As I could not find anything satisfying, I decided to take the matter into my own hands and
+                            to start a coding school.
                             And that's how Kyoto Lesson was born. <br><br>
-                            I am originally from France and studied in the U.S. Before moving to Kyoto, I was working as a trader for over 15 years in Tokyo, Hong Kong and Singapore.
-                            During my career in banks, I had to taught myself to code as this allowed me to automate several repeatitive tasks I had to do as a trader. 
+                            I am originally from France and studied in the U.S. Before moving to Kyoto, I was working as
+                            a trader for over 15 years in Tokyo, Hong Kong and Singapore.
+                            During my career in banks, I had to taught myself to code as this allowed me to automate
+                            several repeatitive tasks I had to do as a trader.
                             I've never stopped coding since then.<br>
-                        </p>                            
+                        </p>
                     </div>
-                </div>                          
+                </div>
 
                 <br><br>
                 <div class="row" id="testimonials">
@@ -498,11 +584,14 @@
                 <div class="row">
                     <div class="col-md-4">
                         <p>
-                            "Computer science is often thought to be exclusively for students with a strong mathematical and/or scientific background. 
-                            However, although I specialize in literature, I was able during the camp to experiment it and that really sharpened my interest for this subject. 
-                            It was a very rewarding and most probably valuable experience in the long run. I'd like to thank Alan for his patience and his pedagogy!"
+                            "Computer science is often thought to be exclusively for students with a strong mathematical
+                            and/or scientific background.
+                            However, although I specialize in literature, I was able during the camp to experiment it
+                            and that really sharpened my interest for this subject.
+                            It was a very rewarding and most probably valuable experience in the long run. I'd like to
+                            thank Alan for his patience and his pedagogy!"
                             <br><br>
-                        </p>                        
+                        </p>
                         <p class="testimonial-author">- Anita. D., 12th Grade <br>Kyoto Intl French High School</p>
                     </div>
                     <div class="col-md-4">
@@ -517,124 +606,134 @@
                     </div>
                     <div class="col-md-4">
                         <p>
-                            "L'informatique a tendance à être exclusivement adressé aux plus matheux et aux plus scientifiques. 
-                            Pourtant, bien qu'étant en filière Littéraire, j'ai pu durant le stage expérimenter une petite approche à l'informatique 
-                            qui a aiguisé mon intérêt pour cette discipline. 
-                            Ce fut une expérience enrichissante et probablement très valorisable, sur le long-terme. 
+                            "L'informatique a tendance à être exclusivement adressé aux plus matheux et aux plus
+                            scientifiques.
+                            Pourtant, bien qu'étant en filière Littéraire, j'ai pu durant le stage expérimenter une
+                            petite approche à l'informatique
+                            qui a aiguisé mon intérêt pour cette discipline.
+                            Ce fut une expérience enrichissante et probablement très valorisable, sur le long-terme.
                             Je remercie Alan pour sa patience et sa pédagogie!"
                             <br><br>
                         <p>
-                        <p class="testimonial-author">- Anita D., Terminale Littéraire <br>Lycée Français International de Kyoto</p>
+                        <p class="testimonial-author">- Anita D., Terminale Littéraire <br>Lycée Français International
+                            de Kyoto</p>
                     </div>
-                </div>  
+                </div>
                 <br><br>
                 <div class="row">
                     <!-- <div class="col-2">
                     </div>   -->
                     <div class="col-12">
-                        <img class="rounded img-fluid" src="./img/05_testimonials_presentation_google_split.png" alt="Presentation Google" width="100%">                    
-                    </div>  
+                        <img class="rounded img-fluid" src="./img/05_testimonials_presentation_google_split.png"
+                            alt="Presentation Google" width="100%">
+                    </div>
                     <!-- <div class="col-2">
                     </div>   -->
-                </div>  
+                </div>
                 <br><br>
                 <div class="row">
                     <div class="col-md-4">
                         <p>
-                            “Who would have thought that coding could be fun! Learning with Alan is! 
-                            We can improve popular games, create websites or address practical challenges. 
+                            “Who would have thought that coding could be fun! Learning with Alan is!
+                            We can improve popular games, create websites or address practical challenges.
                             It is always a great pleasure for my two kids to join one of Alan’s coding boot camp”
                             <br><br><br><br>
-                        </p>                        
+                        </p>
                         <p class="testimonial-author">- Renaud P., Father of <br>Hugo (6th G.) and Luc (4th G.)</p>
                     </div>
                     <div class="col-md-4">
                         <p>
-                            日本語(準備中)  
+                            日本語(準備中)
                             <br><br><br><br><br><br><br><br><br>
                         <p>
                         <p class="testimonial-author">- Renaud P., Hugo（6年生）と<br>Luc（4年生）の父さん</p>
                     </div>
                     <div class="col-md-4">
                         <p>
-                            "Qui aurait pensé que coder pourrait être amusant! C'est le cas quand on apprend avec Alan! 
-                            Nous pouvons améliorer les jeux populaires, créer des sites Web ou relever des défis 
-                            pratiques. C’est toujours un grand plaisir pour mes deux enfants de participer à l’un des camps 
+                            "Qui aurait pensé que coder pourrait être amusant! C'est le cas quand on apprend avec Alan!
+                            Nous pouvons améliorer les jeux populaires, créer des sites Web ou relever des défis
+                            pratiques. C’est toujours un grand plaisir pour mes deux enfants de participer à l’un des
+                            camps
                             d’animation de Alan"
                             <br><br>
                         <p>
                         <p class="testimonial-author">- Renaud P., Père de <br>Hugo (6e) et Luc (CM1)</p>
                     </div>
-                </div>    
+                </div>
                 <br><br>
                 <div class="row">
                     <!-- <div class="col-2">
                     </div>   -->
                     <div class="col-12">
-                        <img class="rounded img-fluid" src="./img/05_testimonials_level3_buildwebsite_classroom_2.jpg" alt="Build Website Class" width="100%">                    
-                    </div>  
+                        <img class="rounded img-fluid" src="./img/05_testimonials_level3_buildwebsite_classroom_2.jpg"
+                            alt="Build Website Class" width="100%">
+                    </div>
                     <!-- <div class="col-2">
                     </div>   -->
-                </div>  
+                </div>
                 <br><br>
                 <div class="row">
                     <div class="col-md-4">
                         <p>
-                            “My boy loves Kyoto Lesson. Alan is nice and patient. 
-                            He teaches the kids how to think. Even though I have little idea of what they are doing 
-                            when listening to the presentation, the only thing I am sure is that what the kids are 
+                            “My boy loves Kyoto Lesson. Alan is nice and patient.
+                            He teaches the kids how to think. Even though I have little idea of what they are doing
+                            when listening to the presentation, the only thing I am sure is that what the kids are
                             learning now is important for their future.”
                             <br><br><br><br>
-                        </p>                        
+                        </p>
                         <p class="testimonial-author">- Wendy L., Mother of <br>Yehonatan (5th Grade at KIS)</p>
                     </div>
                     <div class="col-md-4">
                         <p>
-                            日本語(準備中)  
+                            日本語(準備中)
                             <br><br><br><br><br><br><br><br><br><br>
                         <p>
                         <p class="testimonial-author">- Wendy L., Yehonatan（5年生 KIS）の母さん</p>
                     </div>
                     <div class="col-md-4">
                         <p>
-                            "Mon fils adore Kyoto Lesson. Alan est gentil et patient. 
-                            Il apprend aux élèves à penser. Je dois avouer que je ne comprends pas vraiment tout ce 
-                            que les élèves font, même en écoutant leur présentation. Cependant je suis certaine d'une 
+                            "Mon fils adore Kyoto Lesson. Alan est gentil et patient.
+                            Il apprend aux élèves à penser. Je dois avouer que je ne comprends pas vraiment tout ce
+                            que les élèves font, même en écoutant leur présentation. Cependant je suis certaine d'une
                             chose: ce que ce que les élèves apprennent est important pour leur avenir."
                             <br><br>
                         <p>
                         <p class="testimonial-author">- Wendy L., Mère de <br>Yehonatan (5th Grade à KIS)</p>
                     </div>
-                </div>    
+                </div>
                 <br><br>
                 <div class="row">
                     <!-- <div class="col-2">
                     </div>   -->
                     <div class="col-12">
-                        <img class="rounded img-fluid" src="./img/05_testimonials_level1_bitcointrading_classroom_3.jpeg" alt="Bitcoin Trading Class" width="100%">                    
-                    </div>  
+                        <img class="rounded img-fluid"
+                            src="./img/05_testimonials_level1_bitcointrading_classroom_3.jpeg"
+                            alt="Bitcoin Trading Class" width="100%">
+                    </div>
                     <!-- <div class="col-2">
                     </div>   -->
-                </div>  
+                </div>
                 <br><br>
                 <div class="row">
                     <div class="col-md-4">
                         <p>
-                            My son has joined the Coding Boot Camp twice so far. Unlike other programming schools, 
-                            Kyoto Lesson teaches students the fundamentals of coding in a very easy-to-understand way, 
-                            such as encrypting information when sending emails over the Internet as well as sorting 
+                            My son has joined the Coding Boot Camp twice so far. Unlike other programming schools,
+                            Kyoto Lesson teaches students the fundamentals of coding in a very easy-to-understand way,
+                            such as encrypting information when sending emails over the Internet as well as sorting
                             algorithm. It's not just coding a game with Scratch. Students learn way beyond that.<br>
-                            As far as English is concerned, most of the students come from international schools with a 
-                            very good level of English and have no problem taking the course. In addition, Alan explains 
-                            in a simple and easy to understand way. Many students are Japanese, hence even if you are not 
+                            As far as English is concerned, most of the students come from international schools with a
+                            very good level of English and have no problem taking the course. In addition, Alan explains
+                            in a simple and easy to understand way. Many students are Japanese, hence even if you are
+                            not
                             good at English, you can join too.<br>
-                            On the last day of the coding boot camp, students give a presentation in English in front of 
+                            On the last day of the coding boot camp, students give a presentation in English in front of
                             the parents, to present their project and explain what they learned from their class.<br>
-                            Every day during the boot camp, Alan sent us by e-mail a very detailed explanation of what 
-                            the students had done during the day. This is very interesting to read for parents and allows 
+                            Every day during the boot camp, Alan sent us by e-mail a very detailed explanation of what
+                            the students had done during the day. This is very interesting to read for parents and
+                            allows
                             you to follow what students are doing.
                             <br><br><br><br>
-                        </p>                        
+                        </p>
                         <p class="testimonial-author">- Tamaki I., Mother of <br>Haruki (4th Grade at KIS)</p>
                     </div>
                     <div class="col-md-4">
@@ -652,61 +751,73 @@
                     </div>
                     <div class="col-md-4">
                         <p>
-                            Mon fils a participé deux fois au stage de programmation. Contrairement aux autres écoles de 
-                            programmation, Kyoto Lesson enseigne aux élèves les bases de l’informatique de manière très 
-                            facile à comprendre, comme par exemple l'encryption d’informations pour l'envoie de courriers 
-                            électroniques sur Internet ainsi que la méthode algorithmique de tri. Ce n'est pas seulement 
+                            Mon fils a participé deux fois au stage de programmation. Contrairement aux autres écoles de
+                            programmation, Kyoto Lesson enseigne aux élèves les bases de l’informatique de manière très
+                            facile à comprendre, comme par exemple l'encryption d’informations pour l'envoie de
+                            courriers
+                            électroniques sur Internet ainsi que la méthode algorithmique de tri. Ce n'est pas seulement
                             programmer un jeu sous Scratch. Les élèves apprennent bien au-delà.<br>
-                            En ce qui concerne l'anglais, la plupart des élèves viennent d'écoles internationales avec un
-                            très bon niveau d'anglais et n'ont aucun problème à suivre le cours. De plus, Alan explique 
-                            de manière simple et facile à comprendre. Beaucoup d'élèves étant japonais, même si vous 
+                            En ce qui concerne l'anglais, la plupart des élèves viennent d'écoles internationales avec
+                            un
+                            très bon niveau d'anglais et n'ont aucun problème à suivre le cours. De plus, Alan explique
+                            de manière simple et facile à comprendre. Beaucoup d'élèves étant japonais, même si vous
                             n'êtes pas bon en anglais, vous pouvez participer. <br>
-                            Le dernier jour de stage, les élèves font une presentation en anglais 
-                            devant les parents, afin de présenter leur projet et expliquer ce qu'ils ont retenu de leur 
+                            Le dernier jour de stage, les élèves font une presentation en anglais
+                            devant les parents, afin de présenter leur projet et expliquer ce qu'ils ont retenu de leur
                             enseignement. <br>
-                            Chaque jour pendant le stage, Alan nous a envoyé par courrier électronique 
-                            un compte-rendu très complet de ce que les élèves avaient fait pendant la journée. 
-                            Ceci est tres intéressant à lire pour les parents et permet de suivre ce que font les élèves.                                <br><br>
+                            Chaque jour pendant le stage, Alan nous a envoyé par courrier électronique
+                            un compte-rendu très complet de ce que les élèves avaient fait pendant la journée.
+                            Ceci est tres intéressant à lire pour les parents et permet de suivre ce que font les
+                            élèves. <br><br>
                         <p>
                         <p class="testimonial-author">- Tamaki I., Mère de <br>Haruki (4th Grade à KIS)</p>
                     </div>
-                </div>    
+                </div>
                 <br><br>
                 <div class="row">
                     <!-- <div class="col-2">
                     </div>   -->
                     <div class="col-12">
-                        <img class="rounded img-fluid" src="./img/05_testimonials_level1_bitcointrading_classroom_2.jpeg" alt="Bitcoin trading tatami" width="100%">                    
-                    </div>  
+                        <img class="rounded img-fluid"
+                            src="./img/05_testimonials_level1_bitcointrading_classroom_2.jpeg"
+                            alt="Bitcoin trading tatami" width="100%">
+                    </div>
                     <!-- <div class="col-2">
                     </div>   -->
-                </div>  
+                </div>
                 <br><br>
                 <div class="row">
                     <div class="col-md-4">
                         <p>
 
-                            I've registered my children to the coding school as I thought it could be more meaningful for 
+                            I've registered my children to the coding school as I thought it could be more meaningful
+                            for
                             their future rather than playing video games.<br><br>
 
-                            At first they learnt the basic of block programming and animations in Scratch. 
-                            Then they moved on to more advanced skills while having fun modifying the popular video game 
-                            Minecraft. The students need to think about the code they have to write in order to change or 
-                            do something in the video game. After that, the students started to build their own website. 
-                            When I listen to my children, I feel that they are having a lot of fun while shaping their 
+                            At first they learnt the basic of block programming and animations in Scratch.
+                            Then they moved on to more advanced skills while having fun modifying the popular video game
+                            Minecraft. The students need to think about the code they have to write in order to change
+                            or
+                            do something in the video game. After that, the students started to build their own website.
+                            When I listen to my children, I feel that they are having a lot of fun while shaping their
                             thoughts to build what they imagine.<br><br>
-                            
-                            Alan is teaching the lesson. He has a way to fluently alternate between one-on-one teaching and 
-                            group work/discussion. He is teaching fluently both in English and French. Alan's rich experience 
-                            and knowledge brings to the class an international, cutting-edge teaching. This is an amazing 
+
+                            Alan is teaching the lesson. He has a way to fluently alternate between one-on-one teaching
+                            and
+                            group work/discussion. He is teaching fluently both in English and French. Alan's rich
+                            experience
+                            and knowledge brings to the class an international, cutting-edge teaching. This is an
+                            amazing
                             plus for the class.<br><br>
-                            
-                            The ability to foster and create such logical thinking will prepare children for the future and 
+
+                            The ability to foster and create such logical thinking will prepare children for the future
+                            and
                             will bring them skills that are very relevant in the age of Artificial Intelligence.
                             <br><br><br>
 
-                        </p>                        
-                        <p class="testimonial-author">- Namiko K., Mother of <br>Yunosuke (3rd G.) and Seinosuke (1st G.)</p>
+                        </p>
+                        <p class="testimonial-author">- Namiko K., Mother of <br>Yunosuke (3rd G.) and Seinosuke (1st
+                            G.)</p>
                     </div>
                     <div class="col-md-4">
                         <p>
@@ -717,14 +828,14 @@
                             使ってゲームをするように遊びながらプログラミング構築を学び始めます、ゲーム内で
                             「あれをしてみたい」「こういうことはできるか？」と、子供達は楽しみながら論理的思考で
                             自然に簡単なコードを書き始めました。<br><br>
-                            
+
                             今はウェブサイトを作り始めていますが、自分の考えが形になってできていくのがとても
                             楽しいようです。<br><br>
-                            
+
                             レッスンはアラン先生が一人一人に目を向けて皆でディスカッションしながら進められます。
                             英語とフランス語が飛び交い、アラン先生の豊かな経験と知識の下で、国際的で最先端の
                             情報を得られるレッスンは他にはなく非常に貴重だと思います。<br><br>
-                            
+
                             子供達はIT化された時代に柔軟に対応していく為にも、このような論理的思考を
                             育て創造していく力は今後の社会や自分自身の助けになると思います。<br><br>
                             <br><br><br><br>
@@ -733,102 +844,115 @@
                     </div>
                     <div class="col-md-4">
                         <p>
-                            J'ai inscrit mes enfants à l'école de programmation car je pensais que cela pourrait être plus 
+                            J'ai inscrit mes enfants à l'école de programmation car je pensais que cela pourrait être
+                            plus
                             utile pour leur avenir plutôt que de jouer aux jeux vidéo.<br><br>
 
-                            Au début, ils ont appris les bases de la programmation en bloc et des animations dans Scratch. 
-                            Ensuite, ils ont évolué vers des compétences plus avancées tout en s’amusant à modifier le jeu 
-                            vidéo Minecraft. Les élèves doivent réfléchir au code qu’ils écrivent pour changer ou faire 
-                            quelque chose dans le jeu vidéo. Après cela, les étudiants ont commencé à créer leur propre site 
-                            web. Quand j'écoute mes enfants, je sens qu'ils s'amusent beaucoup en façonnant leurs pensées 
+                            Au début, ils ont appris les bases de la programmation en bloc et des animations dans
+                            Scratch.
+                            Ensuite, ils ont évolué vers des compétences plus avancées tout en s’amusant à modifier le
+                            jeu
+                            vidéo Minecraft. Les élèves doivent réfléchir au code qu’ils écrivent pour changer ou faire
+                            quelque chose dans le jeu vidéo. Après cela, les étudiants ont commencé à créer leur propre
+                            site
+                            web. Quand j'écoute mes enfants, je sens qu'ils s'amusent beaucoup en façonnant leurs
+                            pensées
                             pour construire tout ce qu'ils imaginent.<br><br>
-                            
-                            C'est Alan qui enseigne. Il sait alterner avec talent entre un enseignement individuel et le 
-                            travail / les discussions en groupe. Il enseigne de manière très fluide que ce soit en anglais 
-                            ou en français. La riche expérience et les connaissances d'Alan apportent à la classe un 
+
+                            C'est Alan qui enseigne. Il sait alterner avec talent entre un enseignement individuel et le
+                            travail / les discussions en groupe. Il enseigne de manière très fluide que ce soit en
+                            anglais
+                            ou en français. La riche expérience et les connaissances d'Alan apportent à la classe un
                             enseignement international de pointe. C'est un avantage incroyable pour la classe.<br><br>
-                            
-                            La capacité de favoriser et de créer cette pensée logique préparera les enfants pour l'avenir et 
-                            leur apportera des compétences qui sont très pertinentes à l'ère de l'intelligence artificielle.
-                            <br><br>                                
+
+                            La capacité de favoriser et de créer cette pensée logique préparera les enfants pour
+                            l'avenir et
+                            leur apportera des compétences qui sont très pertinentes à l'ère de l'intelligence
+                            artificielle.
+                            <br><br>
                         <p>
                         <p class="testimonial-author">- Namiko K., Mère de <br>Yunosuke (CE2) et Seinosuke (CP)</p>
                     </div>
-                </div>    
+                </div>
                 <br><br>
                 <div class="row">
                     <!-- <div class="col-2">
                     </div>   -->
                     <div class="col-12">
-                        <img class="rounded img-fluid" src="./img/05_testimonials_JrCoders.jpeg" alt="Junior Coders" width="100%">                    
-                    </div>  
+                        <img class="rounded img-fluid" src="./img/05_testimonials_JrCoders.jpeg" alt="Junior Coders"
+                            width="100%">
+                    </div>
                     <!-- <div class="col-2">
                     </div>   -->
-                </div>  
+                </div>
                 <br><br>
                 <div class="row">
                     <div class="col-md-4">
                         <p>
-                            After few months going to Kyōto Lessons, my 8 year old son started to understand how to make 
+                            After few months going to Kyōto Lessons, my 8 year old son started to understand how to make
                             simple games with Scratch, create artefacts in Minecraft and his own small webpage.
-                            His interest is growing thanks to the hands-on lessons stimulating both logical thinking 
+                            His interest is growing thanks to the hands-on lessons stimulating both logical thinking
                             and creativity. <br><br>
-                            Through seemingly casual fun time, bits of academic knowledge and structured thinking get 
+                            Through seemingly casual fun time, bits of academic knowledge and structured thinking get
                             acquired. <br><br>
                             Warmly recommended to all curious kids!<br><br><br><br><br>
-                        </p>                        
+                        </p>
                         <p class="testimonial-author">- Patrice P., Father of <br>Leo (3rd Grade at LFIK)</p>
                     </div>
                     <div class="col-md-4">
                         <p>
-                            日本語(準備中)  
+                            日本語(準備中)
                             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                         <p>
                         <p class="testimonial-author">- Patrice P., Leo（3年生）<br>の父さん</p>
                     </div>
                     <div class="col-md-4">
                         <p>
-                            Après quelques mois passés à Kyōto Lessons, mon fils de 8 ans a commencé à comprendre 
+                            Après quelques mois passés à Kyōto Lessons, mon fils de 8 ans a commencé à comprendre
                             comment créer des jeux simples sous Scratch, créer des artefacts dans Minecraft et son
-                            propre petit site internet. Son intérêt ne cesse de grandir grâce aux projets pratiques, 
+                            propre petit site internet. Son intérêt ne cesse de grandir grâce aux projets pratiques,
                             stimulants à la fois la pensée logique et la créativité.<br><br>
 
-                            Les moments de divertissement apparemment décontractés, sont autant de leviers efficaces 
+                            Les moments de divertissement apparemment décontractés, sont autant de leviers efficaces
                             permettants d'acquerir les connaissances académiques et une pensée structurée.<br><br>
-                            
-                            Très fortement recommandé à tous les enfants curieux!<br><br>                                
+
+                            Très fortement recommandé à tous les enfants curieux!<br><br>
 
                         <p>
                         <p class="testimonial-author">- Patrice P., Père de <br>Leo (CE2 au LFIK)</p>
                     </div>
-                </div>                    
+                </div>
                 <br><br>
                 <div class="row">
                     <!-- <div class="col-2">
                     </div>   -->
                     <div class="col-12">
-                        <img class="rounded img-fluid" src="./img/05_testimonials_SatCoders.jpeg" alt="Saturday Coders" width="100%">                    
-                    </div>  
+                        <img class="rounded img-fluid" src="./img/05_testimonials_SatCoders.jpeg" alt="Saturday Coders"
+                            width="100%">
+                    </div>
                     <!-- <div class="col-2">
                     </div>   -->
-                </div>  
+                </div>
                 <br><br>
                 <div class="row">
                     <div class="col-md-4">
                         <p>
-                            Computer Science skills, especially coding skills are very useful to create web applications. 
+                            Computer Science skills, especially coding skills are very useful to create web
+                            applications.
                             I have therefore been looking for a good school that can teach these to my son. <br><br>
 
-                            Alan, the founder of Kyoto lesson, has acquired very practical and extremely relevant coding 
-                            skills through his profesional experience and could thus design an ideal curriculum. On top of 
+                            Alan, the founder of Kyoto lesson, has acquired very practical and extremely relevant coding
+                            skills through his profesional experience and could thus design an ideal curriculum. On top
+                            of
                             that he is very good at teaching.<br><br>
-                            
-                            Alan is teaching basic coding logic through very practical projects. In contrast with other 
-                            coding schools that my son attended previously, Alan takes as much time as needed to let 
-                            students find solutions by themself, rather than just making them copy lines of codes without 
-                            thinking. The things he wants to teach them is process and inquiry. This is what I like very 
+
+                            Alan is teaching basic coding logic through very practical projects. In contrast with other
+                            coding schools that my son attended previously, Alan takes as much time as needed to let
+                            students find solutions by themself, rather than just making them copy lines of codes
+                            without
+                            thinking. The things he wants to teach them is process and inquiry. This is what I like very
                             much about this school!<br><br><br>
-                        </p>                        
+                        </p>
                         <p class="testimonial-author">- Soichiro O., Father of <br>Masaki (5th Grade at KIS)</p>
                     </div>
                     <div class="col-md-4">
@@ -847,24 +971,24 @@
                     </div>
                     <div class="col-md-4">
                         <p>
-                            Les compétences en informatique, en particulier les compétences en programmation, 
-                            sont très utiles pour créer des applications Web. 
+                            Les compétences en informatique, en particulier les compétences en programmation,
+                            sont très utiles pour créer des applications Web.
                             Je cherchais donc une bonne école capable d'enseigner cela à mon fils.<br><br>
 
-                            Alan, le fondateur de Kyoto Lesson, a acquis des compétences de programmation très pratiques 
-                            et extrêmement pertinentes grâce à son expérience professionnelle et a ainsi pu concevoir 
+                            Alan, le fondateur de Kyoto Lesson, a acquis des compétences de programmation très pratiques
+                            et extrêmement pertinentes grâce à son expérience professionnelle et a ainsi pu concevoir
                             un curriculum idéal. En plus de cela, c'est un très bon pédagogue.<br><br>
-                            
-                            Alan enseigne la logique de base de la programmation à travers des projets très pratiques. 
-                            Contrairement aux autres écoles de programmation fréquentées par mon fils dans le passé, 
-                            Alan prend le temps nécessaire pour permettre aux étudiants de trouver les solutions 
-                            par eux-mêmes, plutôt que de leur faire copier des lignes de codes sans réfléchir. 
-                            Les choses qu'il veut leur enseigner sont la pensée logique et la recherche. 
-                            Voilà ce que j'aime beaucoup dans cette école!<br><br>                             
+
+                            Alan enseigne la logique de base de la programmation à travers des projets très pratiques.
+                            Contrairement aux autres écoles de programmation fréquentées par mon fils dans le passé,
+                            Alan prend le temps nécessaire pour permettre aux étudiants de trouver les solutions
+                            par eux-mêmes, plutôt que de leur faire copier des lignes de codes sans réfléchir.
+                            Les choses qu'il veut leur enseigner sont la pensée logique et la recherche.
+                            Voilà ce que j'aime beaucoup dans cette école!<br><br>
                         <p>
                         <p class="testimonial-author">- Soichiro O., Père de <br>Masaki (5th Grade à KIS)</p>
                     </div>
-                </div>                    
+                </div>
                 <br><br>
                 <div class="row" id="bootcamps">
                     <h2>Boot Camps</h2>
@@ -873,16 +997,19 @@
                     <div class="col-md-6">
                         <h3>Intensive Immersion Program</h3>
                         <p>
-                            Boot camps are offered during 
-                            <a href="./camps" target="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            Boot camps are offered during
+                            <a href="./camps" target=""
+                                style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                 the school holidays
-                            </a>. These camps are intensive classes, 3-hour per day over 5 days. 
-                            Students will work as a team on a project that they will aim to complete by the end of the boot camp.<br><br>
-                            
-                            The goal in these boot camps is to find a solution to a real-world problem either faced by a company, a non-profit or related to a student's interest. <br><br>
+                            </a>. These camps are intensive classes, 3-hour per day over 5 days.
+                            Students will work as a team on a project that they will aim to complete by the end of the
+                            boot camp.<br><br>
 
-                            Students will start with Scratch, a visual programming language developed by one of the 
-                            research laboratory at the Massachusetts Institute of Technology (MIT) before diving into 
+                            The goal in these boot camps is to find a solution to a real-world problem either faced by a
+                            company, a non-profit or related to a student's interest. <br><br>
+
+                            Students will start with Scratch, a visual programming language developed by one of the
+                            research laboratory at the Massachusetts Institute of Technology (MIT) before diving into
                             JavaScript and Python, two programming languages extensively used by software developers.
                         </p>
                         <ul>
@@ -898,19 +1025,21 @@
                         </ul>
                         <br>
                         <div style="text-align: center;">
-                            <a href="./camp-en/">Boot camps &gt</a> &emsp; &emsp; 
-                            <a  href="./camp-jp/">集中講座 &gt</a> &emsp; &emsp; 
-                            <a href="./camp-fr">Stages &gt</a> &emsp; &emsp; 
+                            <a href="./camp-en/">Boot camps &gt</a> &emsp; &emsp;
+                            <a href="./camp-jp/">集中講座 &gt</a> &emsp; &emsp;
+                            <a href="./camp-fr">Stages &gt</a> &emsp; &emsp;
                             <br><br>
-                            <a href="https://forms.gle/Awjxtmn36HUaVyxb6" target="_blank" rel="noopener">Register &gt</a> &emsp; &emsp; 
-                            <a href="mailto:hello@kyotolesson.com?subject=Hello ! Data Science Explorers Inquiry" target="_blank" rel="noopener">Inquire &gt</a> &emsp; &emsp; 
+                            <a href="https://forms.gle/Awjxtmn36HUaVyxb6" target="_blank" rel="noopener">Register
+                                &gt</a> &emsp; &emsp;
+                            <a href="mailto:hello@kyotolesson.com?subject=Hello ! Data Science Explorers Inquiry"
+                                target="_blank" rel="noopener">Inquire &gt</a> &emsp; &emsp;
                             <a href="./camp-jp/">日本語 &gt</a>
                         </div>
 
                     </div>
                     <div class="col-md-6">
                         <h3>Build Actual Products</h3>
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -920,52 +1049,64 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img class="d-block w-100 rounded" src="./img/06_Carousel_Level0_Preview_SuperMarioScreenShot_900x1200.png" alt="Level 0: Super Mario Scratch">
-                                <!-- <div class="carousel-caption d-none d-md-block">
+                                    <img class="d-block w-100 rounded"
+                                        src="./img/06_Carousel_Level0_Preview_SuperMarioScreenShot_900x1200.png"
+                                        alt="Level 0: Super Mario Scratch">
+                                    <!-- <div class="carousel-caption d-none d-md-block">
                                     <h5>Level 0:</h5>
                                     <p>Super Mario Scratch</p>
                                 </div> -->
                                 </div>
                                 <div class="carousel-item">
-                                <img class="d-block w-100 rounded" src="./img/06_Carousel_Level1_Preview_BitcoinTrading_900x1200.png" alt="Level 1: Bitcoin Trading">
-                                <!-- <div class="carousel-caption d-none d-md-block">
+                                    <img class="d-block w-100 rounded"
+                                        src="./img/06_Carousel_Level1_Preview_BitcoinTrading_900x1200.png"
+                                        alt="Level 1: Bitcoin Trading">
+                                    <!-- <div class="carousel-caption d-none d-md-block">
                                     <h5>Level 1:</h5>
                                     <p>Bitcoin Automatic Trading</p>
                                 </div> -->
                                 </div>
                                 <div class="carousel-item">
-                                <img class="d-block w-100 rounded" src="./img/06_Carousel_Level1_Preview_GoogleTranslate_900x1200.png" alt="Level 1: Improve Google Translate">
-                                <!-- <div class="carousel-caption d-none d-md-block">
+                                    <img class="d-block w-100 rounded"
+                                        src="./img/06_Carousel_Level1_Preview_GoogleTranslate_900x1200.png"
+                                        alt="Level 1: Improve Google Translate">
+                                    <!-- <div class="carousel-caption d-none d-md-block">
                                     <h5>Level 1:</h5>
                                     <p>Improve Google Translate</p>
                                 </div> -->
                                 </div>
                                 <div class="carousel-item">
-                                <img class="d-block w-100 rounded" src="./img/06_Carousel_Level2_KL_ModMineCraft_900x1200.png" alt="Level 2: Modify Minecraft">
-                                <!-- <div class="carousel-caption d-none d-md-block">
+                                    <img class="d-block w-100 rounded"
+                                        src="./img/06_Carousel_Level2_KL_ModMineCraft_900x1200.png"
+                                        alt="Level 2: Modify Minecraft">
+                                    <!-- <div class="carousel-caption d-none d-md-block">
                                     <h5>Level 2:</h5>
                                     <p>Modify Minecraft</p>
                                 </div> -->
                                 </div>
                                 <div class="carousel-item">
-                                <img class="d-block w-100 rounded" src="./img/06_Carousel_Level3_BuildWebsite_900x1200.png" alt="Level 3: Build your Own Website">
-                                <!-- <div class="carousel-caption d-none d-md-block">
+                                    <img class="d-block w-100 rounded"
+                                        src="./img/06_Carousel_Level3_BuildWebsite_900x1200.png"
+                                        alt="Level 3: Build your Own Website">
+                                    <!-- <div class="carousel-caption d-none d-md-block">
                                     <h5>Level 3:</h5>
                                     <p>Build your Own Website</p>
                                 </div> -->
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
-                            </div>
+                        </div>
                     </div>
-                </div>          
+                </div>
                 <br><br>
                 <div class="row" id="hardware">
                     <h2>Hardware Prototyping</h2>
@@ -974,65 +1115,82 @@
                     <div class="col-md-6">
                         <h3>Three Complementary Streams</h3>
                         <p>
-                            Computer hardware and electronic are essential components of Computer Science. 
-                            As you improve your coding skills, you will need to understand what are the various hardware limitations you are exposed 
+                            Computer hardware and electronic are essential components of Computer Science.
+                            As you improve your coding skills, you will need to understand what are the various hardware
+                            limitations you are exposed
                             to in order to write a more efficient code.
                             <br><br>
-                            With the Internet of Things (or IoT) becoming an important area of research across the globe, hardware prototyping is 
+                            With the Internet of Things (or IoT) becoming an important area of research across the
+                            globe, hardware prototyping is
                             especially relevant nowadays and a logical addition to our curriculum.
                             <br><br>
                             Our Hardware curriculum focuses on giving our students a hands-on maker experience.
-                            Our students are making actual objects from sketching all the way to the actual prototype and our program is splitted into three main parts:
+                            Our students are making actual objects from sketching all the way to the actual prototype
+                            and our program is splitted into three main parts:
                             <br><br>
-                        </p>                            
-                            <ul>
-                                <li>3D Printing & Modeling</li>
-                                <li>Electronic (Micro:Bit Block Editor, Arduino, Raspberry Pi...)</li>
-                                <li>Robotic (Kamibot, Lego Mindstorms, Drones...)</li>
-                            </ul>
-                            <br><br>
-                            <img class="card-img-top" src="./img/06c_HardwareBootCamp_Electronic.JPG" alt="Hardware BootCamp Electronic">
-                            <br><br>
+                        </p>
+                        <ul>
+                            <li>3D Printing & Modeling</li>
+                            <li>Electronic (Micro:Bit Block Editor, Arduino, Raspberry Pi...)</li>
+                            <li>Robotic (Kamibot, Lego Mindstorms, Drones...)</li>
+                        </ul>
+                        <br><br>
+                        <img class="card-img-top" src="./img/06c_HardwareBootCamp_Electronic.JPG"
+                            alt="Hardware BootCamp Electronic">
+                        <br><br>
                         <p>
                             <br>
-                            This program is taught in partnership with <a href="https://kyotomakersgarage.com/" style="color: #2BAADF;font-weight: normal;text-decoration: underline;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank" rel="noopener">Kyoto Makers Garage (KMG)</a> <br>
-                            It will take place at KMG's studio. (500m from KRP, <a href="https://goo.gl/maps/Hk9qfiJwnr7ZSaKBA" target="_blank" rel="noopener" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">GoogleMap link</a>)
+                            This program is taught in partnership with <a href="https://kyotomakersgarage.com/"
+                                style="color: #2BAADF;font-weight: normal;text-decoration: underline;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"
+                                target="_blank" rel="noopener">Kyoto Makers Garage (KMG)</a> <br>
+                            It will take place at KMG's studio. (500m from KRP, <a
+                                href="https://goo.gl/maps/Hk9qfiJwnr7ZSaKBA" target="_blank" rel="noopener"
+                                style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">GoogleMap
+                                link</a>)
                             where students will be able to work on the most common maker stations and tools:
-                            <ul>
-                                <li>3D printers: Stereolithography (Formlab) and Fused Deposition Modeling</li>
-                                <li>CNC (a computer-controlled cutting machine used for cutting various hard materials, such as wood, composites, aluminum, steel, plastics...)</li>
-                                <li>Laser cutting machines</li>
-                            </ul>
+                        <ul>
+                            <li>3D printers: Stereolithography (Formlab) and Fused Deposition Modeling</li>
+                            <li>CNC (a computer-controlled cutting machine used for cutting various hard materials, such
+                                as wood, composites, aluminum, steel, plastics...)</li>
+                            <li>Laser cutting machines</li>
+                        </ul>
 
-                            <br>
-                            Location:
-                            <br><br>
-                            〒600-8846<br>
-                            京都府京都市下京区朱雀宝蔵町73-1<br>
-                            <br>
-                            73-1 Sujakuhozocho, Shimogyo Ward<br>
-                            Kyoto, 600-8846, Japan
-                            <br><br>
-                            <a href="./3dprint">Learn more &gt</a>
-                            <br><br>
-                            <img class="card-img-top" src="./img/06b_KyotoMakersGarge_logo.jpg" alt="Kyoto Makers Garage Logo">
-                            <br><br>
-                            <img class="card-img-top" src="./img/06b_KyotoMakersGarge_KMG_1.jpg" alt="Kyoto Makers Garage Inside">
-                            <br>
-                            <br>
-                            <div class="google-maps">
-                                <iframe title="map-kmg" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1634.2696167527934!2d135.7389573582631!3d34.993204445090115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x600107208c2c2279%3A0x1e8598ae67fd7d03!2sJapan%2C+Kyoto%2C+Shimogyo+Ward%2C+Chudoji+Minamimachi%2C+KRP!3m2!1d34.9949286!2d135.73958779999998!4m5!1s0x6001063d053751e5%3A0x848a04530c1168ee!2sKyoto+Makers+Garage%2C+73-1+Sujakuh%C5%8Dz%C5%8Dch%C5%8D%2C+Shimogy%C5%8D-ku%2C+Kyoto%2C+600-8846%2C+Japan!3m2!1d34.9914773!2d135.7408113!5e0!3m2!1sen!2sus!4v1564394000309!5m2!1sen!2sus" frameborder="0" style="border:0" allowfullscreen></iframe>
-                            </div>
-                            <br>                            
-                        </p>                            
+                        <br>
+                        Location:
+                        <br><br>
+                        〒600-8846<br>
+                        京都府京都市下京区朱雀宝蔵町73-1<br>
+                        <br>
+                        73-1 Sujakuhozocho, Shimogyo Ward<br>
+                        Kyoto, 600-8846, Japan
+                        <br><br>
+                        <a href="./3dprint">Learn more &gt</a>
+                        <br><br>
+                        <img class="card-img-top" src="./img/06b_KyotoMakersGarge_logo.jpg"
+                            alt="Kyoto Makers Garage Logo">
+                        <br><br>
+                        <img class="card-img-top" src="./img/06b_KyotoMakersGarge_KMG_1.jpg"
+                            alt="Kyoto Makers Garage Inside">
+                        <br>
+                        <br>
+                        <div class="google-maps">
+                            <iframe title="map-kmg"
+                                src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1634.2696167527934!2d135.7389573582631!3d34.993204445090115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x600107208c2c2279%3A0x1e8598ae67fd7d03!2sJapan%2C+Kyoto%2C+Shimogyo+Ward%2C+Chudoji+Minamimachi%2C+KRP!3m2!1d34.9949286!2d135.73958779999998!4m5!1s0x6001063d053751e5%3A0x848a04530c1168ee!2sKyoto+Makers+Garage%2C+73-1+Sujakuh%C5%8Dz%C5%8Dch%C5%8D%2C+Shimogy%C5%8D-ku%2C+Kyoto%2C+600-8846%2C+Japan!3m2!1d34.9914773!2d135.7408113!5e0!3m2!1sen!2sus!4v1564394000309!5m2!1sen!2sus"
+                                frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <br>
+                        </p>
                     </div>
                     <div class="col-md-6">
                         <h3>Hands-on Boot Camps</h3>
                         <p>
                             Our first Boot Camp is an introduction to 3D printing.<br><br>
-                            This is one of the key future technologies, enabling businesses to cut costs, reduce time to market, 
-                            produce stronger and lighter parts, improve efficiency, and solve a myriad of other challenges.<br><br>
-                            That’s why we think it’s important for our students to have an understanding of the technology in the 21st century global economy.
+                            This is one of the key future technologies, enabling businesses to cut costs, reduce time to
+                            market,
+                            produce stronger and lighter parts, improve efficiency, and solve a myriad of other
+                            challenges.<br><br>
+                            That’s why we think it’s important for our students to have an understanding of the
+                            technology in the 21st century global economy.
                             <br><br>
                             <a href="./3dprint">Learn more &gt</a>
                             <br><br>
@@ -1046,11 +1204,12 @@
                             <br><br>
                             <img class="card-img-top" src="./img/06c_HardwareBootCamp4.JPG" alt="Hardware BootCamp">
                             <br><br>
-                            <img class="card-img-top" src="./img/06c_Hardwareprototyping_BootCamp_Flyer2.jpg" alt="Hardware BootCamp Electronic">
+                            <img class="card-img-top" src="./img/06c_Hardwareprototyping_BootCamp_Flyer2.jpg"
+                                alt="Hardware BootCamp Electronic">
                             <br><br>
                         </p>
                     </div>
-                </div>          
+                </div>
                 <br><br>
                 <div class="row" id="entrepreneurs">
                     <h2>Tech Entrepreneur</h2>
@@ -1059,45 +1218,53 @@
                     <div class="col-md-6">
                         <h3>Cutting-Edge Curriculum</h3>
                         <p>
-                            Our curriculum is meant to bring non-technical students to a level that allows them to 
+                            Our curriculum is meant to bring non-technical students to a level that allows them to
                             independtly build their own product.
-                            During that journey, they will learn the best approach to problem solving and the technics 
-                            to quickly assess the potential of their idea, test their hypothesis, minimize their risk,  
+                            During that journey, they will learn the best approach to problem solving and the technics
+                            to quickly assess the potential of their idea, test their hypothesis, minimize their risk,
                             design and build a MVP and then iterate from there.
                             We focus only on the most relevant and up-to-date tools used across the Tech Industry.
-                        </p>                            
-                            <ol>
-                                <li>Learn to Build Websites</li>
-                                <li>Create a Back-End App with JavaScript</li>
-                                <li>Create a Front-End App with React</li>
-                                <li>Analyze Data with Python</li>
-                                <li>Analyze Data with SQL</li>
-                                <li>Get Started with Machine Learning</li>
-                            </ol>
+                        </p>
+                        <ol>
+                            <li>Learn to Build Websites</li>
+                            <li>Create a Back-End App with JavaScript</li>
+                            <li>Create a Front-End App with React</li>
+                            <li>Analyze Data with Python</li>
+                            <li>Analyze Data with SQL</li>
+                            <li>Get Started with Machine Learning</li>
+                        </ol>
                         <p>
-                            Our Tech Entrepreneurs will learn how to write production ready code and how to lead others. 
-                            During this immersive startup program, they will interact with different roles at the company 
-                            (engineers, designers, product managers, project managers) and they will also have a chance to be 
-                            one of them if they choose to. At the end of the sprint, each team demo their progress in front 
-                            of the product manager. At the end of the class the teams will have the opportunity to present 
+                            Our Tech Entrepreneurs will learn how to write production ready code and how to lead others.
+                            During this immersive startup program, they will interact with different roles at the
+                            company
+                            (engineers, designers, product managers, project managers) and they will also have a chance
+                            to be
+                            one of them if they choose to. At the end of the sprint, each team demo their progress in
+                            front
+                            of the product manager. At the end of the class the teams will have the opportunity to
+                            present
                             their final product.
-                        </p>                            
+                        </p>
                     </div>
                     <div class="col-md-6">
                         <h3>Two Programs, Flexible Learning</h3>
                         <p>
-                            Our Tech Entrepreneurs are often full-time University students with non-technical major. 
-                            We have thus designed our program in the most flexible way possible to insure that it is compatible 
+                            Our Tech Entrepreneurs are often full-time University students with non-technical major.
+                            We have thus designed our program in the most flexible way possible to insure that it is
+                            compatible
                             with their otherwise busy schedule.
                             <br><br>
-                            Each session consists of a class followed by a short project to be completed by the students 
+                            Each session consists of a class followed by a short project to be completed by the students
                             at home or in the class, alone or as a group.
                             <br><br>
-                            Through our program, students will acquire two essential skills: building web applications 
+                            Through our program, students will acquire two essential skills: building web applications
                             (JavaScript) as well as data-driven decision tools (Python).<br><br>
-                            Each skill is further split into 3 sub-skills, so that our Tech Entrepreneurs can learn at their own 
-                            pace. While it is best to have these 3 sub-skills completed in a short time-interval, we also 
-                            understand that this might not always be possible when studying for another degree in parallel.<br><br>
+                            Each skill is further split into 3 sub-skills, so that our Tech Entrepreneurs can learn at
+                            their own
+                            pace. While it is best to have these 3 sub-skills completed in a short time-interval, we
+                            also
+                            understand that this might not always be possible when studying for another degree in
+                            parallel.<br><br>
                             To complete each skill, our students will further be able to chose between two programs:
                         </p>
                         <ul>
@@ -1105,11 +1272,13 @@
                             <li>Continuous Learning program (4hr+4hr/day, 2d/week for 24 weeks, ¥675,000)</li>
                         </ul>
                         <p>
-                            A new class will start once at least six students have registered. 
-                            Do not hesitate to <a href="mailto:hello@kyotolesson.com?Subject=Info: Tech Entrepreneur Program" target="_blank" rel="noopener">contact us</a> for more details.
+                            A new class will start once at least six students have registered.
+                            Do not hesitate to <a
+                                href="mailto:hello@kyotolesson.com?Subject=Info: Tech Entrepreneur Program"
+                                target="_blank" rel="noopener">contact us</a> for more details.
                         </p>
                     </div>
-                </div>          
+                </div>
                 <br><br>
                 <div class="row" id="about-us">
                     <h2>About Us</h2>
@@ -1118,13 +1287,20 @@
                     <div class="col-md-4">
                         <h3>Build 1st, Theory 2nd</h3>
                         <p>
-                            To be successful at something you need to be surrounded by experts that guide you along the way. 
-                            That’s exactly what we did with the design of our immersive startup class. Instead of the traditional 
-                            approach where students sit in a formal classroom, learn the theory first, and solve fictitious 
-                            problems, our students are essentially software engineers that works for a startup and create actual 
-                            products. They will need to solve real-world problems through decomposing, researching independently 
-                            as well as managing their projects. The more academic part of the teaching will come only as and when 
-                            needed to keep their projects moving forward. This environment, technologies, and processes are 
+                            To be successful at something you need to be surrounded by experts that guide you along the
+                            way.
+                            That’s exactly what we did with the design of our immersive startup class. Instead of the
+                            traditional
+                            approach where students sit in a formal classroom, learn the theory first, and solve
+                            fictitious
+                            problems, our students are essentially software engineers that works for a startup and
+                            create actual
+                            products. They will need to solve real-world problems through decomposing, researching
+                            independently
+                            as well as managing their projects. The more academic part of the teaching will come only as
+                            and when
+                            needed to keep their projects moving forward. This environment, technologies, and processes
+                            are
                             identical to successful startups and companies around the world.
                             <br><br>
                             <a href="./about/#buildfirst">Learn more &gt</a>
@@ -1133,32 +1309,43 @@
                     <div class="col-md-4">
                         <h3>The Tech Scene</h3>
                         <p>
-                            Our founder has built over the years an large network within the Tech Industry. Being permanently in contact with the 
-                            brigthest individuals in this field allows Kyoto Lesson to provide cutting edge education to its students. All the 
-                            tools and technics that we are using are always aligned with the indusctry best practices and always up-to-date.
-                            Moreover, Kyoto Lesson provides a unique opportunity for its students to get directly in touch with Tech leaders: for 
-                            more advanced classes, we'll be working on projects in collaboration with some of the largest tech companies (Google, 
-                            Apple, Facebook, Amazon, Uber, Airbnb...), smaller startups (local and foreign) as well as with non-profit organizations.
+                            Our founder has built over the years an large network within the Tech Industry. Being
+                            permanently in contact with the
+                            brigthest individuals in this field allows Kyoto Lesson to provide cutting edge education to
+                            its students. All the
+                            tools and technics that we are using are always aligned with the indusctry best practices
+                            and always up-to-date.
+                            Moreover, Kyoto Lesson provides a unique opportunity for its students to get directly in
+                            touch with Tech leaders: for
+                            more advanced classes, we'll be working on projects in collaboration with some of the
+                            largest tech companies (Google,
+                            Apple, Facebook, Amazon, Uber, Airbnb...), smaller startups (local and foreign) as well as
+                            with non-profit organizations.
                             <br><br><br>
-                            <a href="./about/#techscene">Learn more &gt</a> &emsp; &emsp; 
+                            <a href="./about/#techscene">Learn more &gt</a> &emsp; &emsp;
                             <a href="./google/">Google Project &gt</a>
                         </p>
                     </div>
                     <div class="col-md-4">
                         <h3>About the founder</h3>
                         <p>
-                            Alan is a French national who studied at a prestigious US University. 
+                            Alan is a French national who studied at a prestigious US University.
 
-                            He holds three master's degree in Engineering, Statistics and Business Administration as well as an All but dissertation PhD degree (ABD) in Probability and Finance.
-                            Alan has been working as an option trader for several top-tiers investment banks for 15 years in Japan, Hong Kong and Singapore. Being an enthusiast python coder, Alan was also during that time in charge of automating all the front office activities.
-                            
-                            He is also the co-founder of HealthCo, a MedTech which mission is to make patient’s medical data portability a reality.
-                            Alan also recently co-founded a FinTech, taking advantage of arbitrage opportunities seen on crypto-currency markets (bitcoin...).
+                            He holds three master's degree in Engineering, Statistics and Business Administration as
+                            well as an All but dissertation PhD degree (ABD) in Probability and Finance.
+                            Alan has been working as an option trader for several top-tiers investment banks for 15
+                            years in Japan, Hong Kong and Singapore. Being an enthusiast python coder, Alan was also
+                            during that time in charge of automating all the front office activities.
+
+                            He is also the co-founder of HealthCo, a MedTech which mission is to make patient’s medical
+                            data portability a reality.
+                            Alan also recently co-founded a FinTech, taking advantage of arbitrage opportunities seen on
+                            crypto-currency markets (bitcoin...).
                             <br><br><br>
                             <a href="./about/#theteam">Learn more &gt</a>
                         </p>
                     </div>
-                </div>          
+                </div>
 
                 <br><br>
                 <div class="row" id="locations">
@@ -1167,10 +1354,16 @@
                 <div class="row">
                     <div class="col-md-6">
                         <br>
-                        <img class="card-img-top" src="./img/07_location_communitylabn55_white_748x100.png" alt="Community Lab N5.5 Logo">
+                        <img class="card-img-top" src="./img/07_location_communitylabn55_white_748x100.png"
+                            alt="Community Lab N5.5 Logo">
                         <br><br>
-                        <a href="https://www.n-55.jp/" style="color: #2BAADF;font-weight: normal;text-decoration: underline;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank" rel="noopener">Community Lab N5.5</a> 
-                        <br>(250m from Gojo station, <a href="https://goo.gl/maps/4XaA15SdyFUaEa2y5" target="_blank" rel="noopener" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">GoogleMap link</a>)<br>
+                        <a href="https://www.n-55.jp/"
+                            style="color: #2BAADF;font-weight: normal;text-decoration: underline;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"
+                            target="_blank" rel="noopener">Community Lab N5.5</a>
+                        <br>(250m from Gojo station, <a href="https://goo.gl/maps/4XaA15SdyFUaEa2y5" target="_blank"
+                            rel="noopener"
+                            style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">GoogleMap
+                            link</a>)<br>
                         <br>
                         〒600-8188<br>
                         京都府京都市下京区和泉町529<br>
@@ -1178,20 +1371,29 @@
                         529 Izumicho, Shimogyō ku,<br>
                         Kyōto City, Kyōto 〒600-8188<br>
                         <br>
-                        <img class="card-img-top" src="./img/07_location_communitylab_outside_closelook.jpg" alt="Community Lab N5.5 Outside">
+                        <img class="card-img-top" src="./img/07_location_communitylab_outside_closelook.jpg"
+                            alt="Community Lab N5.5 Outside">
                         <br>
                         <br>
                         <div class="google-maps">
-                            <iframe title="map-n55" src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d3268.442593689778!2d135.75824116524015!3d34.995624330359846!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x600108a30d73c00f%3A0xe157e170ee12e45d!2sGojo+Station%2C+Matsuyacho%2C+Shimogyo+Ward%2C+Kyoto%2C+Japan!3m2!1d34.9963803!2d135.7601362!4m5!1s0x600108a35a740001%3A0xd53171e0f5df662e!2zSmFwYW4sIOOAkjYwMC04MTg4IEt5b3RvLCBTaGltb2d5byBXYXJkLCBJenVtaWNobywgNTI5IOOCs-ODn-ODpeODi-ODhuOCo-ODqeODnE41LjU!3m2!1d34.9948684!2d135.7609654!5e0!3m2!1sen!2sus!4v1558829996004!5m2!1sen!2sus" frameborder="0" style="border:0" allowfullscreen></iframe>                        
+                            <iframe title="map-n55"
+                                src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d3268.442593689778!2d135.75824116524015!3d34.995624330359846!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x600108a30d73c00f%3A0xe157e170ee12e45d!2sGojo+Station%2C+Matsuyacho%2C+Shimogyo+Ward%2C+Kyoto%2C+Japan!3m2!1d34.9963803!2d135.7601362!4m5!1s0x600108a35a740001%3A0xd53171e0f5df662e!2zSmFwYW4sIOOAkjYwMC04MTg4IEt5b3RvLCBTaGltb2d5byBXYXJkLCBJenVtaWNobywgNTI5IOOCs-ODn-ODpeODi-ODhuOCo-ODqeODnE41LjU!3m2!1d34.9948684!2d135.7609654!5e0!3m2!1sen!2sus!4v1558829996004!5m2!1sen!2sus"
+                                frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                         <br>
                     </div>
                     <div class="col-md-6">
                         <br>
-                        <img class="card-img-top" src="./img/07_location_GrovingBaseLogoWhite_H100.png" alt="Groving Base Logo">
+                        <img class="card-img-top" src="./img/07_location_GrovingBaseLogoWhite_H100.png"
+                            alt="Groving Base Logo">
                         <br><br>
-                        <a href="https://groving-base.jp/" style="color: #2BAADF;font-weight: normal;text-decoration: underline;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank" rel="noopener">Groving Base</a> 
-                        <br>(500m from Gojo station, <a href="https://goo.gl/maps/Dj4dmq6ac1n" target="_blank" rel="noopener" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">GoogleMap link</a>)<br>
+                        <a href="https://groving-base.jp/"
+                            style="color: #2BAADF;font-weight: normal;text-decoration: underline;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"
+                            target="_blank" rel="noopener">Groving Base</a>
+                        <br>(500m from Gojo station, <a href="https://goo.gl/maps/Dj4dmq6ac1n" target="_blank"
+                            rel="noopener"
+                            style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;">GoogleMap
+                            link</a>)<br>
                         <br>
                         〒600-8449<br>
                         京都市下京区新町通松原下ル富永町107番地1<br>
@@ -1199,17 +1401,20 @@
                         107-1 Tominaga-chō, Shimogyō ku,<br>
                         Kyōto City, Kyōto 〒600-8449<br>
                         <br>
-                        <img class="card-img-top" src="./img/07_location_groving-base10_1024x576.jpeg" alt="Groving Base Classroom">
+                        <img class="card-img-top" src="./img/07_location_groving-base10_1024x576.jpeg"
+                            alt="Groving Base Classroom">
                         <br>
                         <br>
                         <div class="google-maps">
-                            <iframe title="map-grovingbase" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3268.370374154568!2d135.7563042652402!3d34.99743263035939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x600108a30d73c00f%3A0xe157e170ee12e45d!2sGojo+Station!3m2!1d34.9963803!2d135.7601362!4m5!1s0x6001089f33473e35%3A0xd2ec32d693ecb2ef!2zR1JPVklORyBCQVNF44CB44CSNjAwLTg0NDkgS3lvdG8gUHJlZmVjdHVyZSwg5Lqs6YO95biC5LiL5Lqs5Yy6IOaWsOeUuumAmuadvuWOn-S4i-ODq-WvjOawuOeUujEwN-eVquWcsDE!3m2!1d34.99849!2d135.756786!5e0!3m2!1sen!2sus!4v1558830048849!5m2!1sen!2sus" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe title="map-grovingbase"
+                                src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3268.370374154568!2d135.7563042652402!3d34.99743263035939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x600108a30d73c00f%3A0xe157e170ee12e45d!2sGojo+Station!3m2!1d34.9963803!2d135.7601362!4m5!1s0x6001089f33473e35%3A0xd2ec32d693ecb2ef!2zR1JPVklORyBCQVNF44CB44CSNjAwLTg0NDkgS3lvdG8gUHJlZmVjdHVyZSwg5Lqs6YO95biC5LiL5Lqs5Yy6IOaWsOeUuumAmuadvuWOn-S4i-ODq-WvjOawuOeUujEwN-eVquWcsDE!3m2!1d34.99849!2d135.756786!5e0!3m2!1sen!2sus!4v1558830048849!5m2!1sen!2sus"
+                                frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                         <br>
                     </div>
-                </div>    
-            </div>          
-        </div>          
+                </div>
+            </div>
+        </div>
 
         <br><br><br>
         <footer class="container-fluid">
@@ -1228,10 +1433,15 @@
                 <div class="col-md-4">
                 </div>
                 <div class="col-md-6">
-                    <form class="form-inline" action="https://github.us19.list-manage.com/subscribe/post?u=c689bfde97fcdecbaa7ad88ec&amp;id=963b443229" method="post">
-                        <input id="cspio-email" label="email" name="EMAIL" class="form-control form-control-lg input-lg form-el" style="width: 400px;" type="email" placeholder="Email -メールアドレス(資料請求する)" required/>
+                    <form class="form-inline"
+                        action="https://github.us19.list-manage.com/subscribe/post?u=c689bfde97fcdecbaa7ad88ec&amp;id=963b443229"
+                        method="post">
+                        <input id="cspio-email" label="email" name="EMAIL"
+                            class="form-control form-control-lg input-lg form-el" style="width: 400px;" type="email"
+                            placeholder="Email -メールアドレス(資料請求する)" required />
                         &emsp;
-                        <button id="cspio-subscribe-btn" type="submit" class="btn btn-lg btn-primary form-el noglow" style="background: #5393CC;">Notify Me - 送信</button>
+                        <button id="cspio-subscribe-btn" type="submit" class="btn btn-lg btn-primary form-el noglow"
+                            style="background: #5393CC;">Notify Me - 送信</button>
                     </form>
                 </div>
                 <div class="col-md-2">
@@ -1270,7 +1480,8 @@
                     <p class="footer-title">Contact Us</p>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank" rel="noopener">hello@kyotolesson.com</a>
+                            <a href="mailto:hello@kyotolesson.com?Subject=Hello! - こんにちは!" target="_blank"
+                                rel="noopener">hello@kyotolesson.com</a>
                         </li>
                         <li class="nav-item">
                             <a href="#locations">Our Locations</a>
@@ -1309,7 +1520,7 @@
                             <a href="./afterschool-en/">Coding After School</a>
                         </li>
                         <li class="nav-item">
-                            <a  href="./camp-jp/">プログラミング集中講座</a>
+                            <a href="./camp-jp/">プログラミング集中講座</a>
                         </li>
                         <li class="nav-item">
                             <a href="./afterschool-jp/">プログラミング教室</a>
@@ -1332,24 +1543,30 @@
                         <li class="nav-item">
                             <a href="#entrepreneurs">Tech Entrepreneurs</a>
                         </li>
-                    </ul>    
+                    </ul>
                     <br><br>
                 </div>
                 <div class="col-md-2">
                     <p class="footer-title">Follow Us</p>
                     <ul class="nav flex-column">
-                        <li class="nav-item"><a href="https://kyoto-lesson.github.io/" target="_blank" rel="noopener">Github</a></li>
-                        <li class="nav-item"><a href="https://www.linkedin.com/school/kyotolesson" target="_blank" rel="noopener">LinkedIn</a></li>
-                        <li class="nav-item"><a href="https://twitter.com/kyotolesson" target="_blank" rel="noopener">Twitter</a></li>
-                        <li class="nav-item"><a href="https://www.instagram.com/kyotolesson/" target="_blank" rel="noopener">Instagram</a></li>
-                        <li class="nav-item"><a href="https://www.facebook.com/kyotolesson/" target="_blank" rel="noopener">Facebook</a></li>
-                        <li class="nav-item"><a href="https://www.youtube.com/channel/UCOs6QS8NFzUG879plRrWFxA" target="_blank" rel="noopener">YouTube</a></li>
+                        <li class="nav-item"><a href="https://kyoto-lesson.github.io/" target="_blank"
+                                rel="noopener">Github</a></li>
+                        <li class="nav-item"><a href="https://www.linkedin.com/school/kyotolesson" target="_blank"
+                                rel="noopener">LinkedIn</a></li>
+                        <li class="nav-item"><a href="https://twitter.com/kyotolesson" target="_blank"
+                                rel="noopener">Twitter</a></li>
+                        <li class="nav-item"><a href="https://www.instagram.com/kyotolesson/" target="_blank"
+                                rel="noopener">Instagram</a></li>
+                        <li class="nav-item"><a href="https://www.facebook.com/kyotolesson/" target="_blank"
+                                rel="noopener">Facebook</a></li>
+                        <li class="nav-item"><a href="https://www.youtube.com/channel/UCOs6QS8NFzUG879plRrWFxA"
+                                target="_blank" rel="noopener">YouTube</a></li>
                     </ul>
                     <br><br>
                 </div>
                 <div class="col-md-2">
                 </div>
-            </div>          
+            </div>
 
             <br><br>
             <div class="row">
@@ -1365,12 +1582,18 @@
             <br><br>
         </footer>
     </div>
-    
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <script>$('body').scrollspy({ target: '#navbarscroll' })</script>
 </body>
 
